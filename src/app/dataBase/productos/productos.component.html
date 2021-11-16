@@ -1,0 +1,36 @@
+<p>productos works!</p>
+<div class="container" style="display: inline-flex;">
+    <section style="border: solid black 1px;">
+        <h3>Lista de Productos</h3>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>                    
+                    <th>CÓDIGO</th>
+                    <th>CLASIFICACIÓN</th>
+                    <th>CATEGORÍA</th>
+                    <th>PRODUCTO</th>
+                    <th>MARCA</th>
+                    <th>PROVEEDOR</th>
+                    <th>PRESENTACIÓN</th>
+                    <th>Procedimiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of dbProductos">
+                    <td>{{data.id_producto}}</td>
+                    <td>{{data.clasificacion}}</td>
+                    <td>{{data.categoria}}</td>
+                    <td>{{data.producto}}</td>
+                    <td>{{data.marca}}</td>
+                    <td>{{data.proveedor}}</td>
+                    <td>{{data.presentacion}}</td>
+                    <td>
+                        <button class="btn btn-warning">Editar</button> |
+                        <button (click)="eliminar(data.id, data.producto)" class="btn btn-danger">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <aside style="float: right; color: white; background-color: gray">Agregar Ítem</aside>
+</div>

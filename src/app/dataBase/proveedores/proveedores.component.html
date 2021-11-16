@@ -1,0 +1,35 @@
+<p>proveedores works!</p>
+<div class="container" style="display: inline-flex;">
+    <section style="border: solid black 1px;">
+        <h3>Lista de Proveedores</h3>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>                    
+                    <th>CÓDIGO</th>
+                    <th>NOMBRE</th>
+                    <th>NIT</th>
+                    <th>DIRECCION</th>
+                    <th>CIUDAD</th>
+                    <th>TELÉFONOS</th>
+                    <th>Procedimiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of dbProveedores">
+                    <td>{{data.id_proveedor}}</td>
+                    <td>{{data.nombre}}</td>
+                    <td>{{data.nit}}</td>
+                    <td>{{data.direccion}}</td>
+                    <td>{{data.ciudad}}</td>
+                    <td>{{data.telefonos}}</td>
+                    
+                    <td>
+                        <button class="btn btn-warning">Editar</button> |
+                        <button (click)="eliminar(data.id, data.nombre)" class="btn btn-danger">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <aside style="float: right; color: white; background-color: gray">Agregar Ítem</aside>
+</div>
