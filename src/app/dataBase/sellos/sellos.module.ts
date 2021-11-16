@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { SellosRoutingModule } from './sellos-routing.module';
 import { SellosComponent } from './sellos.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SellosComponent } from './sellos.component';
   imports: [
     CommonModule,
     SellosRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class SellosModule { }

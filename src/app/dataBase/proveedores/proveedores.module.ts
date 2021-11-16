@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ProveedoresRoutingModule } from './proveedores-routing.module';
 import { ProveedoresComponent } from './proveedores.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ProveedoresComponent } from './proveedores.component';
   imports: [
     CommonModule,
     ProveedoresRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class ProveedoresModule { }

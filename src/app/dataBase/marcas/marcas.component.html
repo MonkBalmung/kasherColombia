@@ -1,19 +1,19 @@
-<p>marcas works!</p>
+<br>
 <div class="container" style="display: inline-flex;">
     <section style="border: solid black 1px;">
-        <h3>Lista de Categorías</h3>
-        <table class="table table-striped table-bordered table-hover">
+        <h3>Lista de Marcas</h3>
+        <table class="table table-striped table-bordered table-hover display" id="table">
             <thead>
                 <tr>                    
-                    <th>MARCA</th>
                     <th>CÓDIGO</th>
+                    <th>MARCA</th>
                     <th>Procedimiento</th>
                 </tr>
             </thead>
             <tbody>
                 <tr *ngFor="let data of dbMarcas">
-                    <td>{{data.marca}}</td>
                     <td>{{data.id_marca}}</td>
+                    <td>{{data.marca}}</td>
                     <td>
                         <button class="btn btn-warning">Editar</button> |
                         <button (click)="eliminar(data.id, data.marca)" class="btn btn-danger">Eliminar</button>
@@ -22,5 +22,17 @@
             </tbody>
         </table>
     </section>
-    <aside style="float: right; color: white; background-color: gray">Agregar Ítem</aside>
+    <aside style="float: right; color: white;">
+        <div style="background-color: gray">
+            <h3>Agregar Ítem</h3>
+        </div>
+        <div style="color:black; background-color: lightgray">
+            <h6>Código:</h6>
+            <input type="text" [(ngModel)]="jsonMarcas.id_marca" class="form-control">
+            <h6>Marca:</h6>
+            <input type="text" [(ngModel)]="jsonMarcas.marca" class="form-control">            
+            <br>
+            <button (click)="guardar()" class="btn btn-success">Guardar</button>
+        </div>    
+    </aside>
 </div>

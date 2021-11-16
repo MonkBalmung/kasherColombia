@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { CategoriasRoutingModule } from './categorias-routing.module';
 import { CategoriasComponent } from './categorias.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CategoriasComponent } from './categorias.component';
   imports: [
     CommonModule,
     CategoriasRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class CategoriasModule { }

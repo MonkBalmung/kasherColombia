@@ -2,18 +2,18 @@
 <div class="container" style="display: inline-flex;">
     <section style="border: solid black 1px;">
         <h3>Lista de Clasificaciones</h3>
-        <table class="table table-striped table-bordered table-hover">
+        <table class="table table-striped table-bordered table-hover display" id="table">
             <thead>
                 <tr>                    
-                    <th>CLASIFICACIÓN</th>
                     <th>CÓDIGO</th>
+                    <th>CLASIFICACIÓN</th>
                     <th>Procedimiento</th>
                 </tr>
             </thead>
             <tbody>
                 <tr *ngFor="let data of dbClasificacion">
-                    <td>{{data.clasificacion}}</td>
                     <td>{{data.id_clasificacion}}</td>
+                    <td>{{data.clasificacion}}</td>
                     <td>
                         <button class="btn btn-warning">Editar</button> |
                         <button (click)="eliminar(data.id, data.clasificacion)" class="btn btn-danger">Eliminar</button>
@@ -22,5 +22,17 @@
             </tbody>
         </table>
     </section>
-    <aside style="float: right; color: white; background-color: gray">Agregar Ítem</aside>
+    <aside style="float: right; color: white;">
+        <div style="background-color: gray">
+            <h3>Agregar Ítem</h3>
+        </div>
+        <div style="color:black; background-color: lightgray">
+            <h6>Código:</h6>
+            <input type="text" [(ngModel)]="jsonClasificacion.id_clasificacion" class="form-control">
+            <h6>Clasificación:</h6>
+            <input type="text" [(ngModel)]="jsonClasificacion.clasificacion" class="form-control">            
+            <br>
+            <button (click)="guardar()" class="btn btn-success">Guardar</button>
+        </div>    
+    </aside>
 </div>

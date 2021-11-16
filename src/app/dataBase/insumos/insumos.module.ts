@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { InsumosRoutingModule } from './insumos-routing.module';
 import { InsumosComponent } from './insumos.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { InsumosComponent } from './insumos.component';
   imports: [
     CommonModule,
     InsumosRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class InsumosModule { }

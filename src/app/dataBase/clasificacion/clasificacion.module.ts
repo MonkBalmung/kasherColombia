@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ClasificacionRoutingModule } from './clasificacion-routing.module';
 import { ClasificacionComponent } from './clasificacion.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ClasificacionComponent } from './clasificacion.component';
   imports: [
     CommonModule,
     ClasificacionRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class ClasificacionModule { }

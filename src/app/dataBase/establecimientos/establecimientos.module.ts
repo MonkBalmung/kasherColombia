@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { EstablecimientosRoutingModule } from './establecimientos-routing.module';
 import { EstablecimientosComponent } from './establecimientos.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { EstablecimientosComponent } from './establecimientos.component';
   imports: [
     CommonModule,
     EstablecimientosRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class EstablecimientosModule { }

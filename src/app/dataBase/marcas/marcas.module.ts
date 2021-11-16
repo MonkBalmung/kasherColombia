@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { MarcasRoutingModule } from './marcas-routing.module';
 import { MarcasComponent } from './marcas.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MarcasComponent } from './marcas.component';
   imports: [
     CommonModule,
     MarcasRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class MarcasModule { }

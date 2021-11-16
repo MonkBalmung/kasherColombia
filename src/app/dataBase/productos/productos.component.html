@@ -1,8 +1,8 @@
-<p>productos works!</p>
+<br>
 <div class="container" style="display: inline-flex;">
     <section style="border: solid black 1px;">
         <h3>Lista de Productos</h3>
-        <table class="table table-striped table-bordered table-hover">
+        <table class="table table-striped table-bordered table-hover display" id="table">
             <thead>
                 <tr>                    
                     <th>CÓDIGO</th>
@@ -32,5 +32,27 @@
             </tbody>
         </table>
     </section>
-    <aside style="float: right; color: white; background-color: gray">Agregar Ítem</aside>
+    <aside style="float: right; color: white;">
+        <div style="background-color: gray">
+            <h3>Agregar Ítem</h3>
+        </div>
+        <div style="color:black; background-color: lightgray">
+            <h6>Código:</h6>
+            <input type="text" [(ngModel)]="jsonProductos.id_productos" class="form-control">
+            <h6>Clasificación:</h6>
+            <input type="text" [(ngModel)]="jsonProductos.clasificacion" class="form-control">
+            <h6>Categoría:</h6>
+            <input type="text" [(ngModel)]="jsonProductos.categoria" class="form-control">
+            <h6>Producto::</h6>
+            <input type="text" [(ngModel)]="jsonProductos.producto" class="form-control">
+            <h6>Marca::</h6>
+            <input type="text" [(ngModel)]="jsonProductos.marca" class="form-control">
+            <h6>Proveedor:</h6>
+            <input type="text" [(ngModel)]="jsonProductos.proveedor" class="form-control">
+            <h6>Presentación:</h6>
+            <input type="text" [(ngModel)]="jsonProductos.presentacion" class="form-control">
+            <br>
+            <button (click)="guardar()" class="btn btn-success">Guardar</button>
+        </div>    
+    </aside>
 </div>

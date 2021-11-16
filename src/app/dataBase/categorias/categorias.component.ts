@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+declare const $:any;
 @Component({
   selector: 'app-categorias',
   templateUrl: './categorias.component.html',
@@ -10,10 +11,19 @@ export class CategoriasComponent implements OnInit {
 
   dbCategoria:any;
 
+  jsonCategorias:any={
+      id_categoria: "",
+      categoria: "",
+  }
+
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
     this.listar();
+
+    setTimeout(function(){
+      $('#table').DataTable();
+    },20)    
   }
 
   listar():void{
@@ -25,6 +35,13 @@ export class CategoriasComponent implements OnInit {
     this.http.delete("http://localhost:8080/api/categorias/remover"+id).
     subscribe((Retrieve:any)=>{this.dbCategoria=Retrieve});
     alert("El elemento"+data+"ha sido eliminado exitosamente.");
+    this.listar();
+  }
+
+  guardar():void{
+    this.http.post("http://localhost:8080/api/categorias/insertar", this.jsonCategorias).
+    subscribe((Retrieve:any)=>{});
+    alert("¡Ítem registrado exitosamente!");
     this.listar();
   }
 
