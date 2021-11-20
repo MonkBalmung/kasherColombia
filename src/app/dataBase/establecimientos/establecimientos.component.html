@@ -32,24 +32,32 @@
         </table>
     </section>
     <aside style="float: right; color: white;">
-        <div style="background-color: gray">
-            <h3>Agregar Ítem</h3>
+        <form (submit)="guardar()" ngNativeValidate>        
+            <div style="background-color: gray">
+                <h3>Agregar Ítem</h3>
+            </div>
+            <div style="color:black; background-color: lightgray">
+                <h6>Código:</h6>
+                <input required name="codigo" type="text" [(ngModel)]="jsonEstablecimientos.id_establecimientos" class="form-control">
+                <h6>Actividad:</h6>
+                <input required name="actividad" type="text" [(ngModel)]="jsonEstablecimientos.actividad" class="form-control">
+                <h6>Nombre:</h6>
+                <input required name="nombre" type="text" [(ngModel)]="jsonEstablecimientos.nombre" class="form-control">
+                <h6>Dirección::</h6>
+                <input required name="direccion" type="text" [(ngModel)]="jsonEstablecimientos.direccion" class="form-control">
+                <h6>Ciudad::</h6>
+                <input required name="ciudad" type="text" [(ngModel)]="jsonEstablecimientos.ciudad" class="form-control">
+                <h6>Teléfonos:</h6>
+                <input required name="telefonos" type="text" [(ngModel)]="jsonEstablecimientos.telefonos" class="form-control">
+                <br>
+                <button type="submit" class="btn btn-success">Guardar</button>
+            </div>         
+        </form>
+        <div>
+            <form action="">
+                <h3 style="color: black;">Cargar información desde archivo</h3>
+                <input type="file">
+            </form>
         </div>
-        <div style="color:black; background-color: lightgray">
-            <h6>Código:</h6>
-            <input type="text" [(ngModel)]="jsonEstablecimientos.id_establecimientos" class="form-control">
-            <h6>Actividad:</h6>
-            <input type="text" [(ngModel)]="jsonEstablecimientos.actividad" class="form-control">
-            <h6>Nombre:</h6>
-            <input type="text" [(ngModel)]="jsonEstablecimientos.nombre" class="form-control">
-            <h6>Dirección::</h6>
-            <input type="text" [(ngModel)]="jsonEstablecimientos.direccion" class="form-control">
-            <h6>Ciudad::</h6>
-            <input type="text" [(ngModel)]="jsonEstablecimientos.ciudad" class="form-control">
-            <h6>Teléfonos:</h6>
-            <input type="text" [(ngModel)]="jsonEstablecimientos.telefonos" class="form-control">
-            <br>
-            <button (click)="guardar()" class="btn btn-success">Guardar</button>
-        </div>    
-    </aside>
+    </aside>    
 </div>

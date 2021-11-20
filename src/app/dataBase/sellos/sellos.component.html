@@ -25,18 +25,26 @@
         </table>
     </section>
     <aside style="float: right; color: white;">
-        <div style="background-color: gray">
-            <h3>Agregar Ítem</h3>
+        <form (submit)="guardar()" ngNativeValidate>        
+            <div style="background-color: gray">
+                <h3>Agregar Ítem</h3>
+            </div>
+            <div style="color:black; background-color: lightgray">
+                <h6>Código:</h6>
+                <input required name="codigo" type="text" [(ngModel)]="jsonSellos.id_sello" class="form-control">
+                <h6>Sello:</h6>
+                <input required name="sello" type="text" [(ngModel)]="jsonSellos.sello" class="form-control">
+                <h6>Abreviatura:</h6>
+                <input required name="abreviatura" type="text" [(ngModel)]="jsonSellos.abreviatura" class="form-control">
+                <br>
+                <button type="submit" class="btn btn-success">Guardar</button>
+            </div>        
+        </form>
+        <div>
+            <form action="">
+                <h3 style="color: black;">Cargar información desde archivo</h3>
+                <input type="file">
+            </form>
         </div>
-        <div style="color:black; background-color: lightgray">
-            <h6>Código:</h6>
-            <input type="text" [(ngModel)]="jsonSellos.id_sello" class="form-control">
-            <h6>Sello:</h6>
-            <input type="text" [(ngModel)]="jsonSellos.sello" class="form-control">
-            <h6>Abreviatura:</h6>
-            <input type="text" [(ngModel)]="jsonSellos.abreviatura" class="form-control">
-            <br>
-            <button (click)="guardar()" class="btn btn-success">Guardar</button>
-        </div>    
-    </aside>
+    </aside>    
 </div>
