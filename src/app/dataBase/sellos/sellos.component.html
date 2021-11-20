@@ -17,7 +17,7 @@
                     <td>{{data.sello}}</td>
                     <td>{{data.abreviatura}}</td>
                     <td>
-                        <button class="btn btn-warning">Editar</button> |
+                        <button (click)="formActualizar(data.id)" class="btn btn-warning">Editar</button> |
                         <button (click)="eliminar(data.id, data.sello)" class="btn btn-danger">Eliminar</button>
                     </td>
                 </tr>

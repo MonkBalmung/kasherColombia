@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 declare const $:any;
 @Component({
@@ -12,18 +13,19 @@ export class CategoriasComponent implements OnInit {
   dbCategoria:any;
 
   jsonCategorias:any={
+      id:"",
       id_categoria: "",
       categoria: "",
   }
 
-  constructor(private http: HttpClient) { }
+  constructor(private path:Router, private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.listar();
+    this.listar();    
 
     setTimeout(function(){
       $('#table').DataTable();
-    },20)    
+    },100)    
   }
 
   listar():void{
@@ -31,11 +33,12 @@ export class CategoriasComponent implements OnInit {
     subscribe((Retrieve:any)=>{this.dbCategoria=Retrieve});
   }
 
-  eliminar(id:any, data:any):void{
-    this.http.delete("http://localhost:8080/api/categorias/remover"+id).
-    subscribe((Retrieve:any)=>{this.dbCategoria=Retrieve});
-    alert("El elemento"+data+"ha sido eliminado exitosamente.");
-    this.listar();
+  eliminar(id:any, element:any):void{    
+    this.http.delete("http://localhost:8080/api/categorias/remover/"+id).
+    subscribe((Retrieve:any)=>{ 
+      alert(" El elemento "+element+" ha sido eliminado exitosamente.");
+      this.listar();      
+    });    
   }
 
   guardar():void{
@@ -43,6 +46,10 @@ export class CategoriasComponent implements OnInit {
     subscribe((Retrieve:any)=>{});
     alert("¡Ítem registrado exitosamente!");
     this.listar();
+  }
+
+  formActualizar(id:any):void{
+    this.path.navigate(["/editar-categorias", id]);
   }
 
 }

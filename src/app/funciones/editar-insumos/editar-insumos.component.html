@@ -1,0 +1,21 @@
+<div style="background-color: gray">
+    <h3>Editar Insumo</h3>
+</div>
+<div style="color:black; background-color: lightgray">
+    <h6>Código:</h6>
+    <input type="text" [(ngModel)]="jsonInsumos.id_insumo" class="form-control">
+    <h6>Clasificación:</h6>
+    <input type="text" [(ngModel)]="jsonInsumos.clasificacion" class="form-control">
+    <h6>Categoría:</h6>
+    <input type="text" [(ngModel)]="jsonInsumos.categoria" class="form-control">
+    <h6>Producto::</h6>
+    <input type="text" [(ngModel)]="jsonInsumos.producto" class="form-control">
+    <h6>Marca::</h6>
+    <input type="text" [(ngModel)]="jsonInsumos.marca" class="form-control">
+    <h6>Proveedor:</h6>
+    <input type="text" [(ngModel)]="jsonInsumos.proveedor" class="form-control">
+    <h6>Presentación:</h6>
+    <input type="text" [(ngModel)]="jsonInsumos.presentacion" class="form-control">
+    <br>
+    <button (click)="actualizar()" class="btn btn-success">Editar</button>
+</div>

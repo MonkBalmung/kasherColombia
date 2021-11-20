@@ -15,7 +15,7 @@
                     <td>{{data.id_clasificacion}}</td>
                     <td>{{data.clasificacion}}</td>
                     <td>
-                        <button class="btn btn-warning">Editar</button> |
+                        <button (click)="formActualizar(data.id)" class="btn btn-warning">Editar</button> |
                         <button (click)="eliminar(data.id, data.clasificacion)" class="btn btn-danger">Eliminar</button>
                     </td>
                 </tr>

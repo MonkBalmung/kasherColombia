@@ -1,0 +1,11 @@
+<div style="background-color: gray">
+    <h3>Editar Clasificación</h3>
+</div>
+<div style="color:black; background-color: lightgray">
+    <h6>Código:</h6>
+    <input type="text" [(ngModel)]="jsonClasificacion.id_clasificacion" class="form-control">
+    <h6>Clasificación:</h6>
+    <input type="text" [(ngModel)]="jsonClasificacion.clasificacion" class="form-control">            
+    <br>
+    <button (click)="actualizar()" class="btn btn-success">Editar</button>
+</div>

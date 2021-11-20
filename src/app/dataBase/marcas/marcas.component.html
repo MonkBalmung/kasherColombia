@@ -15,7 +15,7 @@
                     <td>{{data.id_marca}}</td>
                     <td>{{data.marca}}</td>
                     <td>
-                        <button class="btn btn-warning">Editar</button> |
+                        <button (click)="formActualizar(data.id)" class="btn btn-warning">Editar</button> |
                         <button (click)="eliminar(data.id, data.marca)" class="btn btn-danger">Eliminar</button>
                     </td>
                 </tr>

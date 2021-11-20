@@ -11,17 +11,18 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let data of dbCategoria">
+                <tr *ngFor="let data of dbCategoria" >
                     <td>{{data.id_categoria}}</td>
                     <td>{{data.categoria}}</td>
                     <td>
-                        <button class="btn btn-warning">Editar</button> |
+                        <button (click)="formActualizar(data.id)" class="btn btn-warning">Editar</button> |
                         <button (click)="eliminar(data.id, data.categoria)" class="btn btn-danger">Eliminar</button>
                     </td>
                 </tr>
             </tbody>
         </table>
     </section>
+
     <aside style="float: right; color: white;">
         <div style="background-color: gray">
             <h3>Agregar Ítem</h3>
@@ -36,4 +37,3 @@
         </div>    
     </aside>
 </div>
-

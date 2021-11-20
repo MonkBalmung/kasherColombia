@@ -25,7 +25,7 @@
                     <td>{{data.proveedor}}</td>
                     <td>{{data.presentacion}}</td>
                     <td>
-                        <button class="btn btn-warning">Editar</button> |
+                        <button (click)="formActualizar(data.id)" class="btn btn-warning">Editar</button> |
                         <button (click)="eliminar(data.id, data.producto)" class="btn btn-danger">Eliminar</button>
                     </td>
                 </tr>

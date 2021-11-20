@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
@@ -16,24 +17,25 @@ export class ClasificacionComponent implements OnInit {
       clasificacion: ""
   }
 
-  constructor(private http: HttpClient) { }
+  constructor(private path:Router, private http: HttpClient) { }
 
   ngOnInit(): void {
     this.listar();
     setTimeout(function(){
       $('#table').DataTable();
-    },20) 
+    },100) 
   }
 
   listar():void{
     this.http.get("http://localhost:8080/api/clasificacion/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbClasificacion=Retrieve});
   }
-  eliminar(id:any, data:any):void{
-    this.http.delete("http://localhost:8080/api/clasificacion/remover"+id).
-    subscribe((Retrieve:any)=>{this.dbClasificacion=Retrieve});
-    alert("El elemento"+data+"ha sido eliminado exitosamente.");
-    this.listar();
+  eliminar(id:any, element:any):void{    
+    this.http.delete("http://localhost:8080/api/clasificacion/remover/"+id).
+    subscribe((Retrieve:any)=>{ 
+      alert(" El elemento "+element+" ha sido eliminado exitosamente.");
+      this.listar();      
+    });    
   }
 
   guardar():void{
@@ -41,6 +43,10 @@ export class ClasificacionComponent implements OnInit {
     subscribe((Retrieve:any)=>{});
     alert("¡Ítem registrado exitosamente!");
     this.listar();
+  }
+
+  formActualizar(id:any):void{
+    this.path.navigate(["/editar-clasificacion", id]);
   }
 
 }
