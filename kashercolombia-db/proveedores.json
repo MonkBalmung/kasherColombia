@@ -1,0 +1,369 @@
+[{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efbf"
+  },
+  "id_proveedor": "PR0001",
+  "nombre": "Alpina Productos Alimenticios S.A.",
+  "NIT": "8600259002",
+  "direccion": "Cra 4 # 7 - 99",
+  "ciudad": "Sopo- Cundinamarca",
+  "telefonos": "(1)4238600"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc0"
+  },
+  "id_proveedor": "PR0002",
+  "nombre": "Baskin Robbins",
+  "direccion": "Cra 43 # 173-98",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "601 2100200",
+  "observaciones": "Baskin Robbins es igual a Donkin Donuts en Colombia"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc1"
+  },
+  "id_proveedor": "PR0003",
+  "nombre": "Bimbo de Colombia S.A.",
+  "NIT": "8300023660",
+  "direccion": "Autopista Medellin km 12",
+  "ciudad": "Tenjo- Cundinamarca",
+  "telefonos": "(1)7452111"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc2"
+  },
+  "id_proveedor": "PR0004",
+  "nombre": "Abadi Garavito SAS",
+  "NIT": "8300456731",
+  "direccion": "Calle 14 OE 2 D 04 APTO 201 TRR C ED Balcones de Santa",
+  "ciudad": "Cali- Valle del Cauca",
+  "telefonos": "3106189694"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc3"
+  },
+  "id_proveedor": "PR0005",
+  "nombre": "Casaluker S.A.",
+  "NIT": "8908007181",
+  "direccion": "Calle 13 N� 68-98 Zona Industrial",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(571)4473700",
+  "email": "centrodesoluciones@casaluker.com.co"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc4"
+  },
+  "id_proveedor": "PR0006",
+  "nombre": "Colombina S.A.",
+  "NIT": "8903018845",
+  "direccion": "Corregimiento La Paila",
+  "ciudad": "Zarzal- Valle del Cauca",
+  "telefonos": "(2)8861999"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc5"
+  },
+  "id_proveedor": "PR0007",
+  "nombre": "Comestibles Italo S A",
+  "NIT": "8600490421",
+  "direccion": "Cra 68D # 15 - 26",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)7454590"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc6"
+  },
+  "id_proveedor": "PR0008",
+  "nombre": "Compania Nacional de Chocolates",
+  "NIT": "811036030",
+  "direccion": "Cra 43 A # 1 A SUR 143",
+  "ciudad": "Medellin- Antioquia",
+  "telefonos": "3655600 - 3127116978",
+  "email": "afhoyos@serviciosnutresa.com",
+  "observaciones": "Hace parte del Grupo Nutresa"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc7"
+  },
+  "id_proveedor": "PR0009",
+  "nombre": "Country Fresh SAS",
+  "NIT": "9004097031",
+  "direccion": "Carrera 7 # 75 - 66 Ofc 702",
+  "ciudad": "Bogota - Bogota",
+  "email": "info@countryfresh.com.co"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc8"
+  },
+  "id_proveedor": "PR0010",
+  "nombre": "Meals de Colombia S.A.S. (Crem Helado)",
+  "NIT": "8600084482",
+  "direccion": "�Avenida Carrera 70 No. 98-09, Bogota",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "57601 643 91 20",
+  "observaciones": "Hace parte del Grupo Nutresa"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efc9"
+  },
+  "id_proveedor": "PR0011",
+  "nombre": "Del Llano S.A.S.",
+  "NIT": "9001541312",
+  "direccion": "Avenida 38 # 31 - 200 Sector La Variante",
+  "ciudad": "Santa Rosa de Osos- Antioquia",
+  "telefonos": "(4)8601306"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efca"
+  },
+  "id_proveedor": "PR0012",
+  "nombre": "Grasco Ltda",
+  "NIT": "8600052640",
+  "direccion": "Cra 35 #7-50",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)4440444"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efcb"
+  },
+  "id_proveedor": "PR0013",
+  "nombre": "F&M Chocolates S.A.S.",
+  "NIT": "8300944268",
+  "direccion": "Km 7 Autopista Bogota-Medellin, Celta Trade Park, Bodega 77, Cra 1 ",
+  "ciudad": "Funza- Cundinamarca",
+  "telefonos": "350 2831043"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efcc"
+  },
+  "id_proveedor": "PR0014",
+  "nombre": "Freskaleche S.A.S.",
+  "NIT": "8001147665",
+  "direccion": "Via Parque Industrial km 3 Barrio Chimita",
+  "ciudad": "Bucaramanga- Santander",
+  "telefonos": "(7)6761761"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efcd"
+  },
+  "id_proveedor": "PR0015",
+  "nombre": "Frito Lay Laboyana S.A.S.",
+  "NIT": "9012138831",
+  "direccion": "Calle 2 A SUR 1 B 42",
+  "ciudad": "Pitalito- Huila",
+  "telefonos": "3124495513"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efce"
+  },
+  "id_proveedor": "PR0016",
+  "nombre": "P.C.A. Productora Y Comercializadora De Alimentos S.A. ",
+  "NIT": "8909122214",
+  "direccion": "Av Cr27 38 A-83 Sur Loc. 1001",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "410 10 02",
+  "email": "servicioalcliente@grupoiga.co",
+  "observaciones": "Esta es la marca Helados Mimo's"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efcf"
+  },
+  "id_proveedor": "PR0017",
+  "nombre": "Kellogg De Colombia S.A.",
+  "NIT": "8909005351",
+  "direccion": "Calle 17 # 68 - 95",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)4251240",
+  "email": "contacto@karavansay.com"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd0"
+  },
+  "id_proveedor": "PR0018",
+  "nombre": "Karavansay S.A.S.",
+  "NIT": "9002016014",
+  "direccion": "Cra 25 # 70-18",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1) 7031240",
+  "email": "contacto@karavansay.com"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd1"
+  },
+  "id_proveedor": "PR0019",
+  "nombre": "Lloreda S.A.",
+  "NIT": "8903016025",
+  "direccion": "�Calle 15 # 3 - 70",
+  "ciudad": "Yumbo-Valle del Cauca",
+  "telefonos": "(2) 661-92-00"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd2"
+  },
+  "id_proveedor": "PR0020",
+  "nombre": "Nestle De Colombia S.A.",
+  "NIT": "8600021309",
+  "direccion": "Tv. 18 #96-41",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)5219000"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd3"
+  },
+  "id_proveedor": "PR0021",
+  "nombre": "Productos Alimenticios Doria S.A.S.",
+  "NIT": "8600170551",
+  "direccion": "Av Troncal de Occidente # 20 - 85",
+  "ciudad": "Mosquera- Cundinamarca",
+  "telefonos": "(1)8293600"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd4"
+  },
+  "id_proveedor": "PR0022",
+  "nombre": "Postobon S.A.",
+  "NIT": "8909039395",
+  "direccion": "Calle 52 # 47-42 PISO 25",
+  "ciudad": "Medellin- Antioquia",
+  "telefonos": "(4)5765100"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd5"
+  },
+  "id_proveedor": "PR0023",
+  "nombre": "Productos Lacteos Pasco S.A.",
+  "NIT": "8600398417",
+  "direccion": "Cra 19b # 166 - 61",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)6712575"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd6"
+  },
+  "id_proveedor": "PR0024",
+  "nombre": "Productos De Antano S.A.S.",
+  "NIT": "8001891715",
+  "direccion": "Vda Bojaca Sector El 40",
+  "ciudad": "Chia - Cundinamarca",
+  "telefonos": "601 8620843 - 601 8621380"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd7"
+  },
+  "id_proveedor": "PR0025",
+  "nombre": "Productos La Carreta Ltda",
+  "NIT": "8320034194",
+  "direccion": "Via Parcelas de Cota km 0.5 Finca La Carreta Vuelta Grande ",
+  "ciudad": "Siberia - Cundinamarca",
+  "telefonos": "(1)8776472"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd8"
+  },
+  "id_proveedor": "PR0026",
+  "nombre": "Compania De Galletas Noel S.A.S.",
+  "NIT": "8110149949",
+  "direccion": "Cra 52 # 2 - 38",
+  "ciudad": " Medellin, Antioquia",
+  "telefonos": "(4)3659999"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efd9"
+  },
+  "id_proveedor": "PR0027",
+  "nombre": "QBCo. S.A.S",
+  "NIT": "8000123750",
+  "direccion": "Carretera Central Buga Tulua km 1",
+  "ciudad": "Buga - Valle del Cauca",
+  "telefonos": "(2)2384452"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efda"
+  },
+  "id_proveedor": "PR0028",
+  "nombre": "Fabrica De Productos Saysa S.A.S.",
+  "NIT": "8000372245",
+  "direccion": "Calle 110 # 36B - 35",
+  "ciudad": "Barranquilla - Atlantico",
+  "telefonos": "(5)3548673"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efdb"
+  },
+  "id_proveedor": "PR0029",
+  "nombre": "Seatech International Inc",
+  "NIT": "8000725563",
+  "direccion": "Edificio Citco Cayo Wickman",
+  "ciudad": "Cartagena - Bolivar",
+  "telefonos": "(5)6778900"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efdc"
+  },
+  "id_proveedor": "PR0030",
+  "nombre": "Seguridad Alimentaria De Occidente S.A.S.",
+  "NIT": "9000752051",
+  "direccion": "CALLE 66 # 9 - 68",
+  "ciudad": "Popayan, Cauca",
+  "telefonos": "3154323200"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efdd"
+  },
+  "id_proveedor": "PR0031",
+  "nombre": "Tropical Passion Inc S.A.S.",
+  "NIT": "9010634294",
+  "direccion": "Calle 135 # 17a-29",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "3123514584"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efde"
+  },
+  "id_proveedor": "PR0032",
+  "nombre": "Laforel S.A.S.",
+  "NIT": "9008430184",
+  "direccion": "Calle 65b # 112-33",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)7494782"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efdf"
+  },
+  "id_proveedor": "PR0033",
+  "nombre": "Truchicol S.A.S.",
+  "NIT": "9000293869",
+  "direccion": "Finca Buenos Aires Vereda Susaca",
+  "ciudad": "Aquitania, Boyaca",
+  "telefonos": "3108517998"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efe0"
+  },
+  "id_proveedor": "PR0034",
+  "nombre": "Indes S.A.S.",
+  "NIT": "8605189940",
+  "direccion": "Calle 65a # 93-28",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)2230612"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efe1"
+  },
+  "id_proveedor": "PR0035",
+  "nombre": "Primma Compania de Alimentos S.A.S",
+  "NIT": "9005293484",
+  "direccion": "Avenida Pradilla 9 00 ESTE OF 423",
+  "ciudad": "Chia - Cundinamarca",
+  "telefonos": "(1)8618973"
+},{
+  "_id": {
+    "$oid": "61879a38d18970e1c3f6efe2"
+  },
+  "id_proveedor": "PR0036",
+  "nombre": "Crepes Y Waffles S.A.",
+  "NIT": "8600769191",
+  "direccion": "Cra 20 # 164a-5",
+  "ciudad": "Bogota - Bogota",
+  "telefonos": "(1)6767602"
+}]

@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6184736c2b80c6754e1d60b3"
+  },
+  "id_clasificacion": "CL0001",
+  "clasificacion": "Carnico",
+  "_class": "com.co.kashercolombia.rest.model.Clasificacion"
+},{
+  "_id": {
+    "$oid": "6184736c2b80c6754e1d60b4"
+  },
+  "id_clasificacion": "CL0002",
+  "clasificacion": "Lacteo"
+},{
+  "_id": {
+    "$oid": "6184736c2b80c6754e1d60b5"
+  },
+  "id_clasificacion": "CL0003",
+  "clasificacion": "Parve"
+}]

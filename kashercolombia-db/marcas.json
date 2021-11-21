@@ -1,0 +1,1346 @@
+[{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb08"
+  },
+  "id_marca": "M0001",
+  "marca": "Alpina",
+  "_class": "com.co.kashercolombia.rest.model.Marcas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb09"
+  },
+  "id_marca": "M0002",
+  "marca": "Alpin"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb0a"
+  },
+  "id_marca": "M0003",
+  "marca": "Milkino"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb0b"
+  },
+  "id_marca": "M0004",
+  "marca": "Pitimix"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb0c"
+  },
+  "id_marca": "M0005",
+  "marca": "Alpilac "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb0d"
+  },
+  "id_marca": "M0006",
+  "marca": "Frutto"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb0e"
+  },
+  "id_marca": "M0007",
+  "marca": "Soka"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb0f"
+  },
+  "id_marca": "M0008",
+  "marca": "Frupper"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb10"
+  },
+  "id_marca": "M0009",
+  "marca": "Alpina "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb11"
+  },
+  "id_marca": "M0010",
+  "marca": "Alpinito"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb12"
+  },
+  "id_marca": "M0011",
+  "marca": "Yogo Yogo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb13"
+  },
+  "id_marca": "M0012",
+  "marca": "Regeneris"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb14"
+  },
+  "id_marca": "M0013",
+  "marca": "Bon Yurt"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb15"
+  },
+  "id_marca": "M0014",
+  "marca": "Alpinette"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb16"
+  },
+  "id_marca": "M0015",
+  "marca": "Alpilac"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb17"
+  },
+  "id_marca": "M0016",
+  "marca": "Yox"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb18"
+  },
+  "id_marca": "M0017",
+  "marca": "Baskin Robbins"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb19"
+  },
+  "id_marca": "M0018",
+  "marca": "Bimbo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb1a"
+  },
+  "id_marca": "M0019",
+  "marca": "Chocoso"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb1b"
+  },
+  "id_marca": "M0020",
+  "marca": "Bimbolete"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb1c"
+  },
+  "id_marca": "M0021",
+  "marca": "Delikeik"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb1d"
+  },
+  "id_marca": "M0022",
+  "marca": "Kekito"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb1e"
+  },
+  "id_marca": "M0023",
+  "marca": "Ping�inos"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb1f"
+  },
+  "id_marca": "M0024",
+  "marca": "Submarinos"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb20"
+  },
+  "id_marca": "M0025",
+  "marca": "Piolo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb21"
+  },
+  "id_marca": "M0026",
+  "marca": "Manchitas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb22"
+  },
+  "id_marca": "M0027",
+  "marca": "Pekitas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb23"
+  },
+  "id_marca": "M0028",
+  "marca": "Atikvah"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb24"
+  },
+  "id_marca": "M0029",
+  "marca": "Lukafe"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb25"
+  },
+  "id_marca": "M0030",
+  "marca": "New Colony"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb26"
+  },
+  "id_marca": "M0031",
+  "marca": "Luker"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb27"
+  },
+  "id_marca": "M0032",
+  "marca": "Tumaco"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb28"
+  },
+  "id_marca": "M0033",
+  "marca": "Huila "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb29"
+  },
+  "id_marca": "M0034",
+  "marca": "Santander"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb2a"
+  },
+  "id_marca": "M0035",
+  "marca": "Macondo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb2b"
+  },
+  "id_marca": "M0036",
+  "marca": "Misterio"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb2c"
+  },
+  "id_marca": "M0037",
+  "marca": " Selva"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb2d"
+  },
+  "id_marca": "M0038",
+  "marca": " Noche"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb2e"
+  },
+  "id_marca": "M0039",
+  "marca": " Andina"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb2f"
+  },
+  "id_marca": "M0040",
+  "marca": " Claro de Luna"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb30"
+  },
+  "id_marca": "M0041",
+  "marca": " Aventura"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb31"
+  },
+  "id_marca": "M0042",
+  "marca": " Nevado"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb32"
+  },
+  "id_marca": "M0043",
+  "marca": "Sol"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb33"
+  },
+  "id_marca": "M0044",
+  "marca": "Quesada"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb34"
+  },
+  "id_marca": "M0045",
+  "marca": "Quesada "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb35"
+  },
+  "id_marca": "M0046",
+  "marca": "Sol Morena"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb36"
+  },
+  "id_marca": "M0047",
+  "marca": "Luker Light"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb37"
+  },
+  "id_marca": "M0048",
+  "marca": "Chocoexpress"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb38"
+  },
+  "id_marca": "M0049",
+  "marca": "Chocolatada"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb39"
+  },
+  "id_marca": "M0050",
+  "marca": "Cocoa Aki"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb3a"
+  },
+  "id_marca": "M0051",
+  "marca": "Supermaxi"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb3b"
+  },
+  "id_marca": "M0052",
+  "marca": "Sol Protonik"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb3c"
+  },
+  "id_marca": "M0053",
+  "marca": "Chocorap"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb3d"
+  },
+  "id_marca": "M0054",
+  "marca": "Marcas Propias"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb3e"
+  },
+  "id_marca": "M0055",
+  "marca": "Tipitin"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb3f"
+  },
+  "id_marca": "M0056",
+  "marca": "Bon Bon Bum"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb40"
+  },
+  "id_marca": "M0057",
+  "marca": "Colombina "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb41"
+  },
+  "id_marca": "M0058",
+  "marca": "Xtime"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb42"
+  },
+  "id_marca": "M0059",
+  "marca": "Fussione"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb43"
+  },
+  "id_marca": "M0060",
+  "marca": "Coffe Delight"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb44"
+  },
+  "id_marca": "M0061",
+  "marca": "Mordisquetas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb45"
+  },
+  "id_marca": "M0062",
+  "marca": "Bridge"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb46"
+  },
+  "id_marca": "M0063",
+  "marca": "Piazza"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb47"
+  },
+  "id_marca": "M0064",
+  "marca": "Nucita"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb48"
+  },
+  "id_marca": "M0065",
+  "marca": "Italo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb49"
+  },
+  "id_marca": "M0066",
+  "marca": "Qkiss"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb4a"
+  },
+  "id_marca": "M0067",
+  "marca": "Thor"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb4b"
+  },
+  "id_marca": "M0068",
+  "marca": "Crumy"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb4c"
+  },
+  "id_marca": "M0069",
+  "marca": "Adria"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb4d"
+  },
+  "id_marca": "M0070",
+  "marca": "Merci"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb4e"
+  },
+  "id_marca": "M0071",
+  "marca": "Bonkiss"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb4f"
+  },
+  "id_marca": "M0072",
+  "marca": "Dolcevita"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb50"
+  },
+  "id_marca": "M0073",
+  "marca": "Lakty�s"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb51"
+  },
+  "id_marca": "M0074",
+  "marca": "Win"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb52"
+  },
+  "id_marca": "M0075",
+  "marca": "Monster Blow"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb53"
+  },
+  "id_marca": "M0076",
+  "marca": " Bombon Blow"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb54"
+  },
+  "id_marca": "M0077",
+  "marca": "Cupido"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb55"
+  },
+  "id_marca": "M0078",
+  "marca": "Gtx "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb56"
+  },
+  "id_marca": "M0079",
+  "marca": "Lazer"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb57"
+  },
+  "id_marca": "M0080",
+  "marca": "Michoc"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb58"
+  },
+  "id_marca": "M0081",
+  "marca": "Tobi"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb59"
+  },
+  "id_marca": "M0082",
+  "marca": "Menta choc"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb5a"
+  },
+  "id_marca": "M0083",
+  "marca": "Block"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb5b"
+  },
+  "id_marca": "M0084",
+  "marca": "Cordillera "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb5c"
+  },
+  "id_marca": "M0085",
+  "marca": "Los andes"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb5d"
+  },
+  "id_marca": "M0086",
+  "marca": "Cordillera"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb5e"
+  },
+  "id_marca": "M0087",
+  "marca": "Jet"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb5f"
+  },
+  "id_marca": "M0088",
+  "marca": "La Constancia "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb60"
+  },
+  "id_marca": "M0089",
+  "marca": "Bocatto"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb61"
+  },
+  "id_marca": "M0090",
+  "marca": "Chococono"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb62"
+  },
+  "id_marca": "M0091",
+  "marca": "Cono Soft"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb63"
+  },
+  "id_marca": "M0092",
+  "marca": "Heladino"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb64"
+  },
+  "id_marca": "M0093",
+  "marca": "Aloha"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb65"
+  },
+  "id_marca": "M0094",
+  "marca": "Sundae"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb66"
+  },
+  "id_marca": "M0095",
+  "marca": "Sinfonia"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb67"
+  },
+  "id_marca": "M0096",
+  "marca": "Frutti"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb68"
+  },
+  "id_marca": "M0097",
+  "marca": "Crem Helado"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb69"
+  },
+  "id_marca": "M0098",
+  "marca": "Tornado"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb6a"
+  },
+  "id_marca": "M0099",
+  "marca": "Aloha Mix"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb6b"
+  },
+  "id_marca": "M0100",
+  "marca": "Dracula"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb6c"
+  },
+  "id_marca": "M0101",
+  "marca": "Polet"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb6d"
+  },
+  "id_marca": "M0102",
+  "marca": "Pasion Ardiente"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb6e"
+  },
+  "id_marca": "M0103",
+  "marca": "Casero"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb6f"
+  },
+  "id_marca": "M0104",
+  "marca": "Artesanal"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb70"
+  },
+  "id_marca": "M0105",
+  "marca": " Jet"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb71"
+  },
+  "id_marca": "M0106",
+  "marca": "Bananito"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb72"
+  },
+  "id_marca": "M0107",
+  "marca": "Del Llano"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb73"
+  },
+  "id_marca": "M0108",
+  "marca": "Medalla de Oro (Olimpica)"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb74"
+  },
+  "id_marca": "M0109",
+  "marca": "Orquidea Colombiana (Agrocom)"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb75"
+  },
+  "id_marca": "M0110",
+  "marca": "Palmali (Del Llano Alto Oleico)"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb76"
+  },
+  "id_marca": "M0111",
+  "marca": " Aro (Makro)"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb77"
+  },
+  "id_marca": "M0112",
+  "marca": "Noli (Del Llano Alto Oleico)"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb78"
+  },
+  "id_marca": "M0113",
+  "marca": "Dotchi Foods (Ajover)"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb79"
+  },
+  "id_marca": "M0114",
+  "marca": "Oliomapi"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb7a"
+  },
+  "id_marca": "M0115",
+  "marca": "Oleopacifico"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb7b"
+  },
+  "id_marca": "M0116",
+  "marca": "Maria Palma"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb7c"
+  },
+  "id_marca": "M0117",
+  "marca": "Mi Palma Linda"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb7d"
+  },
+  "id_marca": "M0118",
+  "marca": "Artepan"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb7e"
+  },
+  "id_marca": "M0119",
+  "marca": "Dotchi Foods"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb7f"
+  },
+  "id_marca": "M0120",
+  "marca": "Panifiquemos"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb80"
+  },
+  "id_marca": "M0121",
+  "marca": "Prolacteos JR"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb81"
+  },
+  "id_marca": "M0122",
+  "marca": "Bimbo de Colombia"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb82"
+  },
+  "id_marca": "M0123",
+  "marca": "Crearte"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb83"
+  },
+  "id_marca": "M0124",
+  "marca": "Bucaro"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb84"
+  },
+  "id_marca": "M0125",
+  "marca": "Alimentos Leyla"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb85"
+  },
+  "id_marca": "M0126",
+  "marca": "Flor de Liz"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb86"
+  },
+  "id_marca": "M0127",
+  "marca": "Vitapalma"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb87"
+  },
+  "id_marca": "M0128",
+  "marca": "Surapalma"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb88"
+  },
+  "id_marca": "M0129",
+  "marca": " Nutryoleo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb89"
+  },
+  "id_marca": "M0130",
+  "marca": " Sufritura"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb8a"
+  },
+  "id_marca": "M0131",
+  "marca": " Zaitana"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb8b"
+  },
+  "id_marca": "M0132",
+  "marca": " Artepan"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb8c"
+  },
+  "id_marca": "M0133",
+  "marca": " Crearte"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb8d"
+  },
+  "id_marca": "M0134",
+  "marca": "Ajover"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb8e"
+  },
+  "id_marca": "M0135",
+  "marca": " Panifiquemos"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb8f"
+  },
+  "id_marca": "M0136",
+  "marca": " Del Llano"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb90"
+  },
+  "id_marca": "M0137",
+  "marca": "La Fina"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb91"
+  },
+  "id_marca": "M0138",
+  "marca": "Chiffon"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb92"
+  },
+  "id_marca": "M0139",
+  "marca": "Amiga"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb93"
+  },
+  "id_marca": "M0140",
+  "marca": "Chocolate real"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb94"
+  },
+  "id_marca": "M0141",
+  "marca": "F&M Chocolates"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb95"
+  },
+  "id_marca": "M0142",
+  "marca": "ARO"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb96"
+  },
+  "id_marca": "M0143",
+  "marca": "Freskaleche"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb97"
+  },
+  "id_marca": "M0144",
+  "marca": "Chipsos"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb98"
+  },
+  "id_marca": "M0145",
+  "marca": " Florentinas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb99"
+  },
+  "id_marca": "M0146",
+  "marca": "Florentinas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb9a"
+  },
+  "id_marca": "M0147",
+  "marca": "Quaker"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb9b"
+  },
+  "id_marca": "M0148",
+  "marca": "Chokis"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb9c"
+  },
+  "id_marca": "M0149",
+  "marca": "Manimoto"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb9d"
+  },
+  "id_marca": "M0150",
+  "marca": "Natuchips"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb9e"
+  },
+  "id_marca": "M0151",
+  "marca": "Choclitos"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edb9f"
+  },
+  "id_marca": "M0152",
+  "marca": "Mimo's"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba0"
+  },
+  "id_marca": "M0153",
+  "marca": "exito "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba1"
+  },
+  "id_marca": "M0154",
+  "marca": "Delibar"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba2"
+  },
+  "id_marca": "M0155",
+  "marca": "All Bran"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba3"
+  },
+  "id_marca": "M0156",
+  "marca": "Corn Flakes"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba4"
+  },
+  "id_marca": "M0157",
+  "marca": "Choco Krispis"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba5"
+  },
+  "id_marca": "M0158",
+  "marca": "Choco Krispis Pops"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba6"
+  },
+  "id_marca": "M0159",
+  "marca": "Choco Zucaritas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba7"
+  },
+  "id_marca": "M0160",
+  "marca": "Froot Loops"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba8"
+  },
+  "id_marca": "M0161",
+  "marca": "Musli"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edba9"
+  },
+  "id_marca": "M0162",
+  "marca": "Rice Krispis"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbaa"
+  },
+  "id_marca": "M0163",
+  "marca": "Zucaritas"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbab"
+  },
+  "id_marca": "M0164",
+  "marca": "Karavansay"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbac"
+  },
+  "id_marca": "M0165",
+  "marca": "Premier"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbad"
+  },
+  "id_marca": "M0166",
+  "marca": "Riquisimo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbae"
+  },
+  "id_marca": "M0167",
+  "marca": "Oleocali"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbaf"
+  },
+  "id_marca": "M0168",
+  "marca": "Oleocali "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb0"
+  },
+  "id_marca": "M0169",
+  "marca": "La Americana"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb1"
+  },
+  "id_marca": "M0170",
+  "marca": "Natura "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb2"
+  },
+  "id_marca": "M0171",
+  "marca": "Canola Life "
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb3"
+  },
+  "id_marca": "M0172",
+  "marca": "Lefrit"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb4"
+  },
+  "id_marca": "M0173",
+  "marca": "Frida"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb5"
+  },
+  "id_marca": "M0174",
+  "marca": "Colman�s"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb6"
+  },
+  "id_marca": "M0175",
+  "marca": "Haz de Oros"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb7"
+  },
+  "id_marca": "M0176",
+  "marca": "Practis"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb8"
+  },
+  "id_marca": "M0177",
+  "marca": "Nescafe"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbb9"
+  },
+  "id_marca": "M0178",
+  "marca": "Nestea"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbba"
+  },
+  "id_marca": "M0179",
+  "marca": "Nesquick"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbbb"
+  },
+  "id_marca": "M0180",
+  "marca": "Milo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbbc"
+  },
+  "id_marca": "M0181",
+  "marca": "La Lechera"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbbd"
+  },
+  "id_marca": "M0182",
+  "marca": "Doria"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbbe"
+  },
+  "id_marca": "M0183",
+  "marca": "Bretana"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbbf"
+  },
+  "id_marca": "M0184",
+  "marca": "Colombiana"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc0"
+  },
+  "id_marca": "M0185",
+  "marca": "Ginger Canada dry"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc1"
+  },
+  "id_marca": "M0186",
+  "marca": "Kola Hipinto"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc2"
+  },
+  "id_marca": "M0187",
+  "marca": "Limonada"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc3"
+  },
+  "id_marca": "M0188",
+  "marca": "Manzana Postobon"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc4"
+  },
+  "id_marca": "M0189",
+  "marca": "Naranja Postobon"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc5"
+  },
+  "id_marca": "M0190",
+  "marca": "Pepsi Light"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc6"
+  },
+  "id_marca": "M0191",
+  "marca": "Pepsi"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc7"
+  },
+  "id_marca": "M0192",
+  "marca": "Pepsi black"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc8"
+  },
+  "id_marca": "M0193",
+  "marca": "Seven Up"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbc9"
+  },
+  "id_marca": "M0194",
+  "marca": "Uva Postobon"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbca"
+  },
+  "id_marca": "M0195",
+  "marca": "Manzana Cero"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbcb"
+  },
+  "id_marca": "M0196",
+  "marca": "Colombiana Cero"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbcc"
+  },
+  "id_marca": "M0197",
+  "marca": "Uva Cero"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbcd"
+  },
+  "id_marca": "M0198",
+  "marca": "H2Oh! Lima Limon"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbce"
+  },
+  "id_marca": "M0199",
+  "marca": "Sr Toronjo"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbcf"
+  },
+  "id_marca": "M0200",
+  "marca": "Hit"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd0"
+  },
+  "id_marca": "M0201",
+  "marca": "Tutti Frutti"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd1"
+  },
+  "id_marca": "M0202",
+  "marca": "Hatsu"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd2"
+  },
+  "id_marca": "M0203",
+  "marca": "Mr Tea"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd3"
+  },
+  "id_marca": "M0204",
+  "marca": "Gatorade"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd4"
+  },
+  "id_marca": "M0205",
+  "marca": "Kefir"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd5"
+  },
+  "id_marca": "M0206",
+  "marca": "De Antano"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd6"
+  },
+  "id_marca": "M0207",
+  "marca": "La Carreta"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd7"
+  },
+  "id_marca": "M0208",
+  "marca": "Tosh"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd8"
+  },
+  "id_marca": "M0209",
+  "marca": "Ducales"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbd9"
+  },
+  "id_marca": "M0210",
+  "marca": "Festival"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbda"
+  },
+  "id_marca": "M0211",
+  "marca": "Minichips"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbdb"
+  },
+  "id_marca": "M0212",
+  "marca": "Saltin"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbdc"
+  },
+  "id_marca": "M0213",
+  "marca": "Sultana"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbdd"
+  },
+  "id_marca": "M0214",
+  "marca": "miel"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbde"
+  },
+  "id_marca": "M0215",
+  "marca": "de"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbdf"
+  },
+  "id_marca": "M0216",
+  "marca": "Saltin"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe0"
+  },
+  "id_marca": "M0217",
+  "marca": "Dux"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe1"
+  },
+  "id_marca": "M0218",
+  "marca": "Van Camp's"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe2"
+  },
+  "id_marca": "M0219",
+  "marca": "Segalco"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe3"
+  },
+  "id_marca": "M0220",
+  "marca": "Tropical Passion"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe4"
+  },
+  "id_marca": "M0221",
+  "marca": "Laforel Ahumados"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe5"
+  },
+  "id_marca": "M0222",
+  "marca": "Truchicol y CIA"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe6"
+  },
+  "id_marca": "M0223",
+  "marca": "Grumman-Biodiet-Dolcesi"
+},{
+  "_id": {
+    "$oid": "61871ce6ac490899778edbe7"
+  },
+  "id_marca": "M0224",
+  "marca": "Primma "
+}]

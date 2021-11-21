@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6187a79ad18970e1c3f6f008"
+  },
+  "id_sello": "S0001",
+  "sello": "Kosher Agency Latinamerica - KAL",
+  "abreviatura": "KAL",
+  "_class": "com.co.kashercolombia.rest.model.Sellos"
+},{
+  "_id": {
+    "$oid": "6187a79ad18970e1c3f6f009"
+  },
+  "id_sello": "S0002",
+  "sello": "Orthodox Union - OU",
+  "abreviatura": "OU"
+},{
+  "_id": {
+    "$oid": "6187a79ad18970e1c3f6f00a"
+  },
+  "id_sello": "S0003",
+  "sello": "Vaad HaKashrut de Bogota - VKB",
+  "abreviatura": "VKB"
+}]

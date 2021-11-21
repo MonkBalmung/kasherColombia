@@ -1,0 +1,1718 @@
+[{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6164"
+  },
+  "id_insumo": "I0002",
+  "clasificacion": "Lacteo",
+  "categoria": "Leches en polvo",
+  "producto": "Leche Entera ",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "En polvo - Bulto 25 Kilos"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6165"
+  },
+  "id_insumo": "I0003",
+  "clasificacion": "Lacteo",
+  "categoria": "Leches en polvo",
+  "producto": "Lacto Suero Dulce Normal ",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "En polvo - Bulto 25 Kilos"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6166"
+  },
+  "id_insumo": "I0004",
+  "clasificacion": "Lacteo",
+  "categoria": "Leches en polvo",
+  "producto": "Lacto Suero Dulce ",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "En polvo graso - Bulto 25 Kilos"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6167"
+  },
+  "id_insumo": "I0005",
+  "clasificacion": "Lacteo",
+  "categoria": "Congelados Parve",
+  "producto": "Jugo Simple",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "Limon, Guanabana y Fresa"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6168"
+  },
+  "id_insumo": "I0006",
+  "clasificacion": "Parve",
+  "categoria": "Congelados Parve",
+  "producto": "Jugo Simple",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "Concentrado de Mango, Maracuya, Papaya, Pina y Mora"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6169"
+  },
+  "id_insumo": "I0007",
+  "clasificacion": "Parve",
+  "categoria": "Congelados Parve",
+  "producto": "Jugo",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "Concentrado de Mandarina y Naranja"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d616a"
+  },
+  "id_insumo": "I0008",
+  "clasificacion": "Parve",
+  "categoria": "Asepticos Parve",
+  "producto": "Jugo ",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "Simple y Concentrado de Mango Aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d616b"
+  },
+  "id_insumo": "I0009",
+  "clasificacion": "Parve",
+  "categoria": "Asepticos Parve",
+  "producto": "Salsas ",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "Asepticas de Manzana, Banano y Durazno"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d616c"
+  },
+  "id_insumo": "I0010",
+  "clasificacion": "Parve",
+  "categoria": "Rellenos",
+  "producto": "Rellenos",
+  "marca": "Alpina",
+  "proveedor": "Alpina ",
+  "presentacion": "Pina, Fresa, Melocoton y Mora"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d616d"
+  },
+  "id_insumo": "I0011",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Carambolo ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d616e"
+  },
+  "id_insumo": "I0012",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Lima Tahiti ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d616f"
+  },
+  "id_insumo": "I0013",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Naranja ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6170"
+  },
+  "id_insumo": "I0014",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Mandarina ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6171"
+  },
+  "id_insumo": "I0015",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Pina ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6172"
+  },
+  "id_insumo": "I0016",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Melon ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6173"
+  },
+  "id_insumo": "I0017",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Uchuva ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6174"
+  },
+  "id_insumo": "I0018",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Maracuya ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6175"
+  },
+  "id_insumo": "I0019",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Coco ",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6176"
+  },
+  "id_insumo": "I0020",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Maracuya, Limon, Pina y Mandarina",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6177"
+  },
+  "id_insumo": "I0021",
+  "clasificacion": "Parve",
+  "categoria": "Jugos",
+  "producto": "Jugo",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Lima Tahiti y Mandarina",
+  "especificacionesTecnicas": "Jugos simples y concentrados de frutas organcias, congelado o aseptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6178"
+  },
+  "id_insumo": "I0022",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Mango congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6179"
+  },
+  "id_insumo": "I0023",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Pina congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d617a"
+  },
+  "id_insumo": "I0024",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Maracuya congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d617b"
+  },
+  "id_insumo": "I0025",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Mora congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d617c"
+  },
+  "id_insumo": "I0026",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Lulo/ Naranjilla congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d617d"
+  },
+  "id_insumo": "I0027",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Banano congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d617e"
+  },
+  "id_insumo": "I0028",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Guanabana congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d617f"
+  },
+  "id_insumo": "I0029",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Curuba congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6180"
+  },
+  "id_insumo": "I0030",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Tomate de arbol congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6181"
+  },
+  "id_insumo": "I0031",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": " de Coco congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6182"
+  },
+  "id_insumo": "I0032",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Melon congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6183"
+  },
+  "id_insumo": "I0033",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Borojo congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6184"
+  },
+  "id_insumo": "I0034",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": " de Papaya congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6185"
+  },
+  "id_insumo": "I0035",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": " de Lima Tahiti congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6186"
+  },
+  "id_insumo": "I0036",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Naranja congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6187"
+  },
+  "id_insumo": "I0037",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": " de Mandarina congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6188"
+  },
+  "id_insumo": "I0038",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Fresa congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6189"
+  },
+  "id_insumo": "I0039",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Feijoa congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d618a"
+  },
+  "id_insumo": "I0040",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Tamarindo congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d618b"
+  },
+  "id_insumo": "I0041",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpa",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "de Carambolo congelada o aseptica",
+  "especificacionesTecnicas": "Azucarada"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d618c"
+  },
+  "id_insumo": "I0042",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Mango",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d618d"
+  },
+  "id_insumo": "I0043",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Pina",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d618e"
+  },
+  "id_insumo": "I0044",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Mora",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d618f"
+  },
+  "id_insumo": "I0045",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Lulo/Naranjilla",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6190"
+  },
+  "id_insumo": "I0046",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Banano",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6191"
+  },
+  "id_insumo": "I0047",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Guanabana",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6192"
+  },
+  "id_insumo": "I0048",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Curuba",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6193"
+  },
+  "id_insumo": "I0049",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Tomate de arbol",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6194"
+  },
+  "id_insumo": "I0050",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Coco",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6195"
+  },
+  "id_insumo": "I0051",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Melon",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6196"
+  },
+  "id_insumo": "I0052",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Borojo",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6197"
+  },
+  "id_insumo": "I0053",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Papaya",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6198"
+  },
+  "id_insumo": "I0054",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Fresa",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6199"
+  },
+  "id_insumo": "I0055",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Feijoa",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d619a"
+  },
+  "id_insumo": "I0056",
+  "clasificacion": "Parve",
+  "categoria": "Pures",
+  "producto": "Pure",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Tamarindo",
+  "especificacionesTecnicas": "Pures y concentrados de frutas organicas, congelado o asceptico"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d619b"
+  },
+  "id_insumo": "I0057",
+  "clasificacion": "Parve",
+  "categoria": "compotas",
+  "producto": "Compota",
+  "proveedor": "CI Potosi SAS",
+  "presentacion": "Frutas Organicas"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d619c"
+  },
+  "id_insumo": "I0058",
+  "clasificacion": "Parve",
+  "categoria": "graneles",
+  "producto": "Oleina de Palma ",
+  "proveedor": "Del Llano SAS",
+  "especificacionesTecnicas": "(Normal, Mezcla e Hibrida)"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d619d"
+  },
+  "id_insumo": "I0059",
+  "producto": "Estearina de Palma",
+  "proveedor": "Del Llano SAS",
+  "especificacionesTecnicas": " (Normal, Mezcla e Hibrida)"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d619e"
+  },
+  "id_insumo": "I0060",
+  "producto": "Palma RBD ",
+  "proveedor": "Del Llano SAS",
+  "especificacionesTecnicas": "(Normal, Mezcla e Hibrida)"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d619f"
+  },
+  "id_insumo": "I0061",
+  "producto": "Palmiste RBD",
+  "proveedor": "Del Llano SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a0"
+  },
+  "id_insumo": "I0062",
+  "producto": "Mezclas de Aceites y Grasas",
+  "proveedor": "Del Llano SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a1"
+  },
+  "id_insumo": "I0063",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Industrial la Fina Hojaldre",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a2"
+  },
+  "id_insumo": "I0064",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": ", Grasa Vegetal Alegria",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a3"
+  },
+  "id_insumo": "I0065",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": ", Estearina de Palma, ",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a4"
+  },
+  "id_insumo": "I0066",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Oleina de Palma",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a5"
+  },
+  "id_insumo": "I0067",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": ", Margarina Industrial Crema de Oro � Pan, ",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a6"
+  },
+  "id_insumo": "I0068",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Industrial la Fina � Crema Chantilly, ",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a7"
+  },
+  "id_insumo": "I0069",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Industrial Vivi, ",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a8"
+  },
+  "id_insumo": "I0070",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Manteca la Blanca, ",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61a9"
+  },
+  "id_insumo": "I0071",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Palmeras Aceite Puro de Palma (Grasa Solida), ",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61aa"
+  },
+  "id_insumo": "I0072",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Aceite de Palma RBD, ",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ab"
+  },
+  "id_insumo": "I0073",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Aceite Vegetal Fritina.",
+  "proveedor": "Grasco",
+  "especificacionesTecnicas": "Las Margarinas que no estan calificadas lacteas, no llevan en su contenido absolutamente nada de leche ni sus derivados, pero estan procesadas en lineas de produccion en las cuales pudo manufacturarse horas antes alguna margarina o esparcible con contenido lacteo. Por supuesto que despues de cada producto elaborado se procede a lavar completa y detalladamente con tensoactivos y desinfectantes, asi como con agua a altisima temperatura y con mucho vapor lo que eliminaria cualquier traza de leche. No obstante, para que el producto pueda considerarse Parve, segun la Halaja, es necesario esperar 24 horas de inactividad de la linea para luego proceder a la respectiva limpieza."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ac"
+  },
+  "id_insumo": "I0074",
+  "clasificacion": "Parve",
+  "categoria": "Concentrados",
+  "producto": "Concentrados de fruta: ",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": "Mango, Mora, Lulo y Maracuya."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ad"
+  },
+  "id_insumo": "I0075",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpas y jugos de frutas:",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": " Mango, Mora, Lulo, Maracuya, Guanabana, Fresa, tomate de arbol, Tamarindo, Borojo, Feijoa, Mandarina, Papaya, Curuba."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ae"
+  },
+  "id_insumo": "I0076",
+  "clasificacion": "Parve",
+  "producto": "Con trozos de fruta: ",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": "Papaya Amarilla, Papaya Roja, Pina."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61af"
+  },
+  "id_insumo": "I0077",
+  "clasificacion": "Parve",
+  "producto": "Con fruta entera: ",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": "Mora, Lulo, Tomate de arbol."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b0"
+  },
+  "id_insumo": "I0078",
+  "clasificacion": "Parve",
+  "categoria": "Deshidratados",
+  "producto": "Deshidratados: ",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": "Pina, Mango, Uchuva, Banano"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b1"
+  },
+  "id_insumo": "I0079",
+  "clasificacion": "Parve",
+  "categoria": "Rellenos",
+  "producto": "Rellenos: ",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": "Frutos Rojos, Frutos Amarillos, Frutos verdes, Manzana Canela, Mora,  Fresa, Melocoton."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b2"
+  },
+  "id_insumo": "I0080",
+  "clasificacion": "Parve",
+  "categoria": "Glace",
+  "producto": "Glace: ",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": "Con sabor a Guanabana (Blanco y Neutro )"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b3"
+  },
+  "id_insumo": "I0081",
+  "clasificacion": "Parve",
+  "categoria": "Glace",
+  "producto": "Glaseado ",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": "de fresa"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b4"
+  },
+  "id_insumo": "I0082",
+  "clasificacion": "Parve",
+  "categoria": "Mezclas",
+  "producto": "Mezclas de frutas",
+  "marca": "FLP Procesados",
+  "proveedor": "Casa Luker",
+  "presentacion": " (SMOOTHIES): Armonia, Energia, Inmune y Vita C"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b5"
+  },
+  "id_insumo": "I0083",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Derivados del cacao",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b6"
+  },
+  "id_insumo": "I0084",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Licor (masa) de cacao",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b7"
+  },
+  "id_insumo": "I0085",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Cocoa en polvo",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b8"
+  },
+  "id_insumo": "I0086",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Manteca de cacao",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61b9"
+  },
+  "id_insumo": "I0087",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Nibs de cacao",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ba"
+  },
+  "id_insumo": "I0088",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Coberturas y chips (gotas) sabor a chocolate",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61bb"
+  },
+  "id_insumo": "I0089",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate semiamargo",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61bc"
+  },
+  "id_insumo": "I0090",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate semiamargo premium",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61bd"
+  },
+  "id_insumo": "I0091",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate semidulce",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61be"
+  },
+  "id_insumo": "I0092",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate industrial",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61bf"
+  },
+  "id_insumo": "I0093",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate para helados",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c0"
+  },
+  "id_insumo": "I0094",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate sin azucar",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c1"
+  },
+  "id_insumo": "I0095",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate semiamargo",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c2"
+  },
+  "id_insumo": "I0096",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate semidulce",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c3"
+  },
+  "id_insumo": "I0097",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate sin azucar",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c4"
+  },
+  "id_insumo": "I0098",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate semiamargo horneables",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c5"
+  },
+  "id_insumo": "I0099",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate semidulce horneables",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c6"
+  },
+  "id_insumo": "I0100",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate sin azucar horneables",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c7"
+  },
+  "id_insumo": "I0101",
+  "clasificacion": "Parve",
+  "categoria": "Chocolates",
+  "producto": "Semillas deshidratadas azucaradas",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c8"
+  },
+  "id_insumo": "I0102",
+  "clasificacion": "Lacteo",
+  "categoria": "Chocolates",
+  "producto": "Coberturas y chips (gotas) sabor a chocolate",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61c9"
+  },
+  "id_insumo": "I0103",
+  "clasificacion": "Lacteo",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate de leche",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ca"
+  },
+  "id_insumo": "I0104",
+  "clasificacion": "Lacteo",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate blanco",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61cb"
+  },
+  "id_insumo": "I0105",
+  "clasificacion": "Lacteo",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate de leche sin azucar",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61cc"
+  },
+  "id_insumo": "I0106",
+  "clasificacion": "Lacteo",
+  "categoria": "Chocolates",
+  "producto": "Cobertura sabor a chocolate blanco sin azucar",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61cd"
+  },
+  "id_insumo": "I0107",
+  "clasificacion": "Lacteo",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate de leche",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ce"
+  },
+  "id_insumo": "I0108",
+  "clasificacion": "Lacteo",
+  "categoria": "Chocolates",
+  "producto": "Chips (gotas) sabor a chocolate blanco",
+  "marca": "F&M Chocolates",
+  "proveedor": "F&M Chocolates SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61cf"
+  },
+  "id_insumo": "I0109",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpas ",
+  "proveedor": "Fruinsa",
+  "presentacion": "De Frutas Congeladas: Curuba, Feijoa, Fresa, Guanabana, Limon, Lulo, Mandarina, Mango, Maracuya, Mora, Naranja, Papaya, Pina, Tomate de arbol, Tamarindo, Durazno, Corozo."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d0"
+  },
+  "id_insumo": "I0110",
+  "clasificacion": "Parve",
+  "categoria": "Pulpas",
+  "producto": "Pulpas ",
+  "proveedor": "Fruinsa",
+  "presentacion": "de verduras congeladas: Pimenton, Zanahoria, Espinaca y Ahuyama."
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d1"
+  },
+  "id_insumo": "I0111",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarinas Industriales",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d2"
+  },
+  "id_insumo": "I0112",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Natura Multiproposito",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d3"
+  },
+  "id_insumo": "I0113",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Natura Brownies",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d4"
+  },
+  "id_insumo": "I0114",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina La Americana",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d5"
+  },
+  "id_insumo": "I0115",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Natura Hojaldre",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d6"
+  },
+  "id_insumo": "I0116",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Pa�l dia",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d7"
+  },
+  "id_insumo": "I0117",
+  "clasificacion": "Parve",
+  "categoria": "Margarinas",
+  "producto": "Margarina Riquisima",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d8"
+  },
+  "id_insumo": "I0118",
+  "clasificacion": "Parve",
+  "producto": "Alinado graso La Americana",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61d9"
+  },
+  "id_insumo": "I0119",
+  "clasificacion": "Parve",
+  "producto": "Grasa Vegetal La Americana",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61da"
+  },
+  "id_insumo": "I0120",
+  "clasificacion": "Parve",
+  "producto": "Klass Helado",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61db"
+  },
+  "id_insumo": "I0121",
+  "clasificacion": "Parve",
+  "producto": "Grasa Vegetal GRG 1000",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61dc"
+  },
+  "id_insumo": "I0122",
+  "clasificacion": "Parve",
+  "producto": "Grasa Vegetal GRG 6040",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61dd"
+  },
+  "id_insumo": "I0123",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite Palma RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61de"
+  },
+  "id_insumo": "I0124",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Estearina de Palma RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61df"
+  },
+  "id_insumo": "I0125",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Oleina de Palma RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e0"
+  },
+  "id_insumo": "I0126",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite de Palmiste RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e1"
+  },
+  "id_insumo": "I0127",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite de Soya RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e2"
+  },
+  "id_insumo": "I0128",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite de Girasol RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e3"
+  },
+  "id_insumo": "I0129",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite de Girasol Alto Oleico RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e4"
+  },
+  "id_insumo": "I0130",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite de Canola RBD",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e5"
+  },
+  "id_insumo": "I0131",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite de Palma Full hidrogenado",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e6"
+  },
+  "id_insumo": "I0132",
+  "clasificacion": "Parve",
+  "categoria": "Aceites",
+  "producto": "Aceite de Palmiste Full hidrogenado",
+  "proveedor": "Lloreda SAS"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e7"
+  },
+  "id_insumo": "I0133",
+  "clasificacion": "Parve",
+  "producto": "Especial Frytol Especial Flamela",
+  "marca": " McCain",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e8"
+  },
+  "id_insumo": "I0134",
+  "clasificacion": "Parve",
+  "producto": "Especial G Hojalpan Premium Special Cake",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61e9"
+  },
+  "id_insumo": "I0135",
+  "clasificacion": "Parve",
+  "producto": "Especial H Aceite Cheff Margina",
+  "marca": "Cheff",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ea"
+  },
+  "id_insumo": "I0136",
+  "clasificacion": "Parve",
+  "producto": "Aceite Cheff Saborizado Margina Industrial Mojapan Puratos",
+  "marca": "Cheff",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61eb"
+  },
+  "id_insumo": "I0137",
+  "clasificacion": "Parve",
+  "producto": "Tulicrem Especial Frytol Bakery Levapan Hojaldre",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ec"
+  },
+  "id_insumo": "I0138",
+  "clasificacion": "Parve",
+  "producto": "Especial M Aceite MAX CBA 150",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ed"
+  },
+  "id_insumo": "I0139",
+  "clasificacion": "Parve",
+  "producto": "Especial Oleofryt Mojapan Esparcible Cheff",
+  "marca": "Cheff",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ee"
+  },
+  "id_insumo": "I0140",
+  "clasificacion": "Parve",
+  "producto": "Flamela Especial Vitina Professional Ramo Multiproposito",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ef"
+  },
+  "id_insumo": "I0141",
+  "clasificacion": "Parve",
+  "producto": "Frytol Mojapan Extra Vitina Croissant",
+  "marca": "Frytol",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f0"
+  },
+  "id_insumo": "I0142",
+  "clasificacion": "Parve",
+  "producto": "Frits Mojapan Gold Ramo plus",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f1"
+  },
+  "id_insumo": "I0143",
+  "clasificacion": "Parve",
+  "producto": " Vital Margarina Industrial",
+  "marca": "Frytol",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f2"
+  },
+  "id_insumo": "I0144",
+  "clasificacion": "Parve",
+  "producto": "CBA 380 CBA 400",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f3"
+  },
+  "id_insumo": "I0145",
+  "clasificacion": "Parve",
+  "producto": "Margarina CBA 200",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f4"
+  },
+  "id_insumo": "I0146",
+  "clasificacion": "Parve",
+  "producto": "Hojalpan Maria",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f5"
+  },
+  "id_insumo": "I0147",
+  "clasificacion": "Parve",
+  "producto": "Especial Mix Luker Optipan",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f6"
+  },
+  "id_insumo": "I0148",
+  "clasificacion": "Parve",
+  "producto": "CBA 390 Margarina Industrial Karina",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f7"
+  },
+  "id_insumo": "I0149",
+  "clasificacion": "Parve",
+  "producto": "CBA 300 Astra Luker Special Sigra CBA 380",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f8"
+  },
+  "id_insumo": "I0150",
+  "clasificacion": "Parve",
+  "producto": "Bizcogra Especial Cober Luker",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61f9"
+  },
+  "id_insumo": "I0151",
+  "clasificacion": "Parve",
+  "producto": "Vitina Hojaldre Estearina Hidrogenada Escamas",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61fa"
+  },
+  "id_insumo": "I0152",
+  "clasificacion": "Parve",
+  "producto": "Especial Palma Higrogenada",
+  "proveedor": "SIGRA"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61fb"
+  },
+  "id_insumo": "I0153",
+  "clasificacion": "Parve",
+  "producto": "Pasta de Tomate Bolsas de 1 y 4 kg.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61fc"
+  },
+  "id_insumo": "I0154",
+  "clasificacion": "Parve",
+  "producto": "Salsa Napolitana Bolsas de 1 y 4 kg.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61fd"
+  },
+  "id_insumo": "I0155",
+  "clasificacion": "Parve",
+  "producto": "Salsa de Tomate Ketchup 1 y 4 Kg.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61fe"
+  },
+  "id_insumo": "I0156",
+  "clasificacion": "Parve",
+  "producto": "Salsa con Tomate 1 y 4 Kg.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d61ff"
+  },
+  "id_insumo": "I0157",
+  "clasificacion": "Parve",
+  "producto": "Salsa BBQ 1 y 4 Kg.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6200"
+  },
+  "id_insumo": "I0158",
+  "clasificacion": "Parve",
+  "producto": "Mermelada variedades de: Mora, Fresa, Maracuya, Uchuva, Lulo, Guanabana, Durazno, Pina, Naranja 1 y 4 Kg.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6201"
+  },
+  "id_insumo": "I0159",
+  "clasificacion": "Parve",
+  "producto": "Sirope con sabor a Miel 1 y 4 Kg.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6202"
+  },
+  "id_insumo": "I0160",
+  "clasificacion": "Parve",
+  "producto": "Linea Premium (En presentacion tubito)",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6203"
+  },
+  "id_insumo": "I0161",
+  "clasificacion": "Parve",
+  "producto": "Mermeladas en variedades de: Mora, Fresa, Maracuya, Uchuva, Lulo, Guanabana, Durazno, Pina, Naranja, Sirope con sabor a miel, Salsa de Tomate ketchup, Azucar sobre 5g.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6204"
+  },
+  "id_insumo": "I0162",
+  "clasificacion": "Parve",
+  "producto": "Linea Classic (En presentacion sobre).",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6205"
+  },
+  "id_insumo": "I0163",
+  "clasificacion": "Parve",
+  "producto": "Mermeladas variedades de: Mora, Fresa, Maracuya, Uchuva, Lulo, Guanabana, Durazno, Pina, Naranja.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6206"
+  },
+  "id_insumo": "I0164",
+  "clasificacion": "Parve",
+  "producto": "Sirope con sabor a miel",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6207"
+  },
+  "id_insumo": "I0165",
+  "clasificacion": "Parve",
+  "producto": "salsa con tomate.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6208"
+  },
+  "id_insumo": "I0166",
+  "clasificacion": "Parve",
+  "producto": "salsa BBQ.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6209"
+  },
+  "id_insumo": "I0167",
+  "clasificacion": "Parve",
+  "producto": "Salsa de aji rojo.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d620a"
+  },
+  "id_insumo": "I0168",
+  "clasificacion": "Parve",
+  "producto": "Azucar sobre 5g.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d620b"
+  },
+  "id_insumo": "I0169",
+  "clasificacion": "Parve",
+  "producto": "Linea condimentos:",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d620c"
+  },
+  "id_insumo": "I0170",
+  "clasificacion": "Parve",
+  "producto": "En presentacion sobre: Pimienta, Sal, Aceite de oliva extravirgen.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d620d"
+  },
+  "id_insumo": "I0171",
+  "clasificacion": "Parve",
+  "producto": "Linea Gourmet: Mermelada de Fresa,",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d620e"
+  },
+  "id_insumo": "I0172",
+  "clasificacion": "Parve",
+  "producto": "En presentacion frasco de vidrio por 30g: Mermelada de Uchuva, Mermelada de fresa y Miel Pura de Abejas.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d620f"
+  },
+  "id_insumo": "I0173",
+  "clasificacion": "Parve",
+  "producto": "Linea endulzante �biodiet y dolce-si�:",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6210"
+  },
+  "id_insumo": "I0174",
+  "clasificacion": "Parve",
+  "producto": "En presentacion sobre por 0.8g: Bolsa por 50,100 y 200 sobres por 0.8g, Plegadiza por 50, 100, 200 y 500 sobres por 0.8g, Doy Pack por 150 g, Duo Doypack, Frasco por 130 g, Bolsa por 1 Kg, Hojas Bolsa por 20 g., Gotero Liquido por 22 y 150 mL.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6211"
+  },
+  "id_insumo": "I0175",
+  "clasificacion": "Parve",
+  "producto": "Galletas integrales con sabor a: Avena, Canela, Naranja endulzadas con stevia en presentacion por 125 g.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+},{
+  "_id": {
+    "$oid": "618474682b80c6754e1d6212"
+  },
+  "id_insumo": "I0176",
+  "clasificacion": "Parve",
+  "producto": "Pasta de Fruta para untar endulzada con stevia variedad: Maracuya, Mora, Uchuva, fresa, lulo, durazno, pina, naranja, frutos amarillos.",
+  "marca": "Grumman, Biodiet, Dolce-si",
+  "proveedor": "Indes"
+}]

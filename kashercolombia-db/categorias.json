@@ -1,0 +1,361 @@
+[{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef81"
+  },
+  "id_categoria": "CT0001",
+  "categoria": "Aceites",
+  "_class": "com.co.kashercolombia.rest.model.Categorias"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef82"
+  },
+  "id_categoria": "CT0002",
+  "categoria": "Agua"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef83"
+  },
+  "id_categoria": "CT0003",
+  "categoria": "Aromaticas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef84"
+  },
+  "id_categoria": "CT0004",
+  "categoria": "Atun"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef85"
+  },
+  "id_categoria": "CT0005",
+  "categoria": "Avenas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef86"
+  },
+  "id_categoria": "CT0006",
+  "categoria": "Bebidas hidratantes"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef87"
+  },
+  "id_categoria": "CT0007",
+  "categoria": "Brownies"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef88"
+  },
+  "id_categoria": "CT0008",
+  "categoria": "Cacao"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef89"
+  },
+  "id_categoria": "CT0009",
+  "categoria": "Cafe"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef8a"
+  },
+  "id_categoria": "CT0010",
+  "categoria": "Cafes"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef8b"
+  },
+  "id_categoria": "CT0011",
+  "categoria": "Caramelos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef8c"
+  },
+  "id_categoria": "CT0012",
+  "categoria": "Cereales"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef8d"
+  },
+  "id_categoria": "CT0013",
+  "categoria": "Chicles"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef8e"
+  },
+  "id_categoria": "CT0014",
+  "categoria": "Chocolate de Mesa"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef8f"
+  },
+  "id_categoria": "CT0015",
+  "categoria": "Chocolates"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef90"
+  },
+  "id_categoria": "CT0016",
+  "categoria": "Chocolatinas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef91"
+  },
+  "id_categoria": "CT0017",
+  "categoria": "Chupetas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef92"
+  },
+  "id_categoria": "CT0018",
+  "categoria": "compotas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef93"
+  },
+  "id_categoria": "CT0019",
+  "categoria": "Condimentos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef94"
+  },
+  "id_categoria": "CT0020",
+  "categoria": "Conservas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef95"
+  },
+  "id_categoria": "CT0021",
+  "categoria": "Crema de Leche"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef96"
+  },
+  "id_categoria": "CT0022",
+  "categoria": "Desayunos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef97"
+  },
+  "id_categoria": "CT0023",
+  "categoria": "Dulces"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef98"
+  },
+  "id_categoria": "CT0024",
+  "categoria": "Encurtidos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef99"
+  },
+  "id_categoria": "CT0025",
+  "categoria": "Galletas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef9a"
+  },
+  "id_categoria": "CT0026",
+  "categoria": "Gaseosas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef9b"
+  },
+  "id_categoria": "CT0027",
+  "categoria": "Helados"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef9c"
+  },
+  "id_categoria": "CT0028",
+  "categoria": "Helados "
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef9d"
+  },
+  "id_categoria": "CT0029",
+  "categoria": "Jugos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef9e"
+  },
+  "id_categoria": "CT0030",
+  "categoria": "Lacteos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6ef9f"
+  },
+  "id_categoria": "CT0031",
+  "categoria": "Lacteos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa0"
+  },
+  "id_categoria": "CT0032",
+  "categoria": "Leche"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa1"
+  },
+  "id_categoria": "CT0033",
+  "categoria": "Leche saborizada"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa2"
+  },
+  "id_categoria": "CT0034",
+  "categoria": "Leches "
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa3"
+  },
+  "id_categoria": "CT0035",
+  "categoria": "Mantecadas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa4"
+  },
+  "id_categoria": "CT0036",
+  "categoria": "Mantequillas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa5"
+  },
+  "id_categoria": "CT0037",
+  "categoria": "Mantqeuilla "
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa6"
+  },
+  "id_categoria": "CT0038",
+  "categoria": "Margarinas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa7"
+  },
+  "id_categoria": "CT0039",
+  "categoria": "Mermelada"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa8"
+  },
+  "id_categoria": "CT0040",
+  "categoria": "Mermeladas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efa9"
+  },
+  "id_categoria": "CT0041",
+  "categoria": "Mezonot"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efaa"
+  },
+  "id_categoria": "CT0042",
+  "categoria": "Nectar"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efab"
+  },
+  "id_categoria": "CT0043",
+  "categoria": "Organicos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efac"
+  },
+  "id_categoria": "CT0044",
+  "categoria": "Organicos "
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efad"
+  },
+  "id_categoria": "CT0045",
+  "categoria": "Panes"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efae"
+  },
+  "id_categoria": "CT0046",
+  "categoria": "Papilla"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efaf"
+  },
+  "id_categoria": "CT0047",
+  "categoria": "papillas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb0"
+  },
+  "id_categoria": "CT0048",
+  "categoria": "Pasabocas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb1"
+  },
+  "id_categoria": "CT0049",
+  "categoria": "Pastas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb2"
+  },
+  "id_categoria": "CT0050",
+  "categoria": "Pescados"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb3"
+  },
+  "id_categoria": "CT0051",
+  "categoria": "Ponques"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb4"
+  },
+  "id_categoria": "CT0052",
+  "categoria": "Pulpas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb5"
+  },
+  "id_categoria": "CT0053",
+  "categoria": "Quesos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb6"
+  },
+  "id_categoria": "CT0054",
+  "categoria": "Refrescos"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb7"
+  },
+  "id_categoria": "CT0055",
+  "categoria": "Sardinas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb8"
+  },
+  "id_categoria": "CT0056",
+  "categoria": "Te"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efb9"
+  },
+  "id_categoria": "CT0057",
+  "categoria": "Tortillas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efba"
+  },
+  "id_categoria": "CT0058",
+  "categoria": "Tostadas"
+},{
+  "_id": {
+    "$oid": "61879992d18970e1c3f6efbb"
+  },
+  "id_categoria": "CT0059",
+  "categoria": "Yogurt "
+},{
+  "_id": "",
+  "id_categoria": "CT0060",
+  "categoria": "Salsas",
+  "_class": "com.co.kashercolombia.rest.model.Categorias"
+}]

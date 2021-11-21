@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efe5"
+  },
+  "id_establecimiento": "ES0001",
+  "actividad": "Carniceria",
+  "nombre": "Manhattan Delicatessen",
+  "direccion": "Carrera 13 A No. 78 � 38",
+  "ciudad": "Bogot�",
+  "telefonos": "702 69 45"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efe6"
+  },
+  "id_establecimiento": "ES0002",
+  "actividad": "Panaderia",
+  "nombre": "Kosher Express",
+  "direccion": "Carrera 14 No. 79-45",
+  "ciudad": "Bogot�",
+  "telefonos": "5309820 - 300 3439557"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efe7"
+  },
+  "id_establecimiento": "ES0003",
+  "actividad": "Panaderia",
+  "nombre": "Tartatin",
+  "ciudad": "Bogot�",
+  "telefonos": "3103193101 - 3107501810 "
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efe8"
+  },
+  "id_establecimiento": "ES0004",
+  "actividad": "Panaderia",
+  "nombre": "Bagel King",
+  "direccion": "Calle 162 # 20 32 ",
+  "ciudad": "Bogot�",
+  "telefonos": "669 6922"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efe9"
+  },
+  "id_establecimiento": "ES0005",
+  "actividad": "Panaderia",
+  "nombre": "Beiruth",
+  "direccion": "Calle 144 # 45 45 P 2",
+  "ciudad": "Bogot�",
+  "telefonos": "520 0632 - 300 3439557"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efea"
+  },
+  "id_establecimiento": "ES0006",
+  "actividad": "Panaderia",
+  "nombre": "La Cesta",
+  "direccion": "Calle 81 # 8-70 ",
+  "ciudad": "Bogot�",
+  "telefonos": "(601) 4674944"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efeb"
+  },
+  "id_establecimiento": "ES0007",
+  "actividad": "Panaderia",
+  "nombre": "Comunidad Hebrea Sefaradi",
+  "direccion": "Calle 79 No. 9 � 66",
+  "ciudad": "Bogot�",
+  "telefonos": "2562629"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efec"
+  },
+  "id_establecimiento": "ES0008",
+  "actividad": "Panaderia",
+  "nombre": "Myriam Camhi",
+  "direccion": "Calle 77 # 13 - 08",
+  "ciudad": "Bogot�",
+  "telefonos": "3451819"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efed"
+  },
+  "id_establecimiento": "ES0009",
+  "actividad": "Pasteler�a",
+  "nombre": "Joyce",
+  "direccion": "Calle 90 # 15-63",
+  "ciudad": "Bogot�",
+  "telefonos": " 611 01 09 � 236 1824"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efee"
+  },
+  "id_establecimiento": "ES0010",
+  "actividad": "Heladeria",
+  "nombre": "Michelle Il Gelato Artiginale",
+  "direccion": "Unicentro primer piso frente a Falabella",
+  "ciudad": "Bogot�"
+},{
+  "_id": {
+    "$oid": "61879ad3d18970e1c3f6efef"
+  },
+  "id_establecimiento": "ES0011",
+  "actividad": "Heladeria",
+  "nombre": "Norma�s Ice Ccream Caf�",
+  "direccion": "Av Calle 116 # 18 - 43",
+  "ciudad": "Bogot�"
+}]
