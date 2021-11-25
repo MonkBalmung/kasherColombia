@@ -1,0 +1,53 @@
+<div class="container">
+    <p>Bienvenido al Módulo de Gestión de Base de Datos de Kasher Colombia<br>
+        ***Para ingresar, por favor autentique su usario y contraseña***
+    </p>
+    <hr>
+    <div class="row">
+        <div class="col-sm-2">            
+            <h4>Usuario:</h4>
+        </div>
+        <div class="col-sm-2">
+            <input type="text" [(ngModel)]="admins.usarname" class="form-control" name="username">
+        </div>
+        <div class="col-sm-2">
+            <h4>Contraseña:</h4>
+        </div>
+        <div>
+            <input type="password" [(ngModel)]="admins.passcode" class="form-control" name="passcode">
+        </div>   
+        <div class="col-sm-2 text-center">
+            <button (click)="ingresar(admins.username, admins.passcode)" type="submit" class="btn btn-success">Ingresar</button>
+        </div>         
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/categorias']">Categorías</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/clasificacion']">Clasificación</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/establecimientos']">Establecimientos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/insumos']">Insumos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/marcas']">Marcas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/productos']">Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/proveedores']">Proveedores</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/sellos']">Sellos</a>
+        </li>        
+    </ul>
+</nav>

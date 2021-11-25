@@ -17,7 +17,8 @@ const routes: Routes = [
   { path: 'editar-marcas/:id', loadChildren: () => import('./funciones/editar-marcas/editar-marcas.module').then(m => m.EditarMarcasModule) },
   { path: 'editar-productos/:id', loadChildren: () => import('./funciones/editar-productos/editar-productos.module').then(m => m.EditarProductosModule) },
   { path: 'editar-proveedores/:id', loadChildren: () => import('./funciones/editar-proveedores/editar-proveedores.module').then(m => m.EditarProveedoresModule) },
-  { path: 'editar-sellos/:id', loadChildren: () => import('./funciones/editar-sellos/editar-sellos.module').then(m => m.EditarSellosModule) }
+  { path: 'editar-sellos/:id', loadChildren: () => import('./funciones/editar-sellos/editar-sellos.module').then(m => m.EditarSellosModule) },
+  { path: 'web-admins', loadChildren: () => import('./dataBase/web-admins/web-admins.module').then(m => m.WebAdminsModule) }
 ];
 
 @NgModule({
