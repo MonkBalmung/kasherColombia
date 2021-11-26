@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { style } from '@angular/animations';
 
+declare const Swal:any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -26,7 +27,13 @@ export class AppComponent {
     {responseType:"json"}).subscribe((Retrieve:any)=>{
       for(var item of Retrieve){
         if(item.username===this.admin.username && item.passcode===this.admin.passcode){
-          alert("Acceso exitoso!");
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: '¡Acceso exitoso!',
+            showConfirmButton: false,
+            timer: 1500
+          }) 
           this.path.navigate(['/web-admins']);
         }else if(ResizeObserver.length===0){
           alert("Usuario o contraseña incorrectos");

@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
+declare const Swal:any;
 @Component({
   selector: 'app-editar-proveedores',
   templateUrl: './editar-proveedores.component.html',
@@ -38,7 +39,13 @@ export class EditarProveedoresComponent implements OnInit {
   actualizar(){
     this.http.put("http://localhost:8080/api/proveedores/actualizar/"+this.jsonProveedores.id, this.jsonProveedores).
     subscribe((Retrieve:any)=>{});
-    alert("¡Ítem actualizado exitosamente!");
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: '¡Ítem actualizado exitosamente!',
+      showConfirmButton: false,
+      timer: 1500
+    });
     this.guardar();
     this.path.navigate(["/proveedores"]);
   }

@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
+declare const Swal:any;
 @Component({
   selector: 'app-editar-categorias',
   templateUrl: './editar-categorias.component.html',
@@ -32,7 +33,13 @@ export class EditarCategoriasComponent implements OnInit {
   actualizar(){
     this.http.put("http://localhost:8080/api/categorias/actualizar/"+this.jsonCategorias.id, this.jsonCategorias).
     subscribe((Retrieve:any)=>{});
-    alert("¡Ítem actualizado exitosamente!");
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: '¡Ítem actualizado exitosamente!',
+      showConfirmButton: false,
+      timer: 1500
+    });
     this.guardar();
     this.path.navigate(["/categorias"]);
   }
