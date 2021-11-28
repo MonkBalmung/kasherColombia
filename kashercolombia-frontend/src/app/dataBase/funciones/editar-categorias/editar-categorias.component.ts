@@ -41,7 +41,7 @@ export class EditarCategoriasComponent implements OnInit {
       timer: 1500
     });
     this.guardar();
-    this.path.navigate(["/dbManagment/categorias"]);
+    this.path.navigate(["/categorias"]);
   }
   guardar():void{
     this.http.post("http://localhost:8080/api/categorias/insertar", this.jsonCategorias).

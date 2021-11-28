@@ -47,7 +47,7 @@ actualizar(){
     timer: 1500
   });
   this.guardar();
-  this.path.navigate(["/dbManagment/establecimientos"]);
+  this.path.navigate(["/establecimientos"]);
 }
 guardar():void{
   this.http.post("http://localhost:8080/api/establecimientos/insertar", this.jsonEstablecimientos).

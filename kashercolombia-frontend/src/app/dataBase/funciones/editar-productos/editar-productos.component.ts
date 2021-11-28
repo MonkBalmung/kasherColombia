@@ -49,7 +49,7 @@ export class EditarProductosComponent implements OnInit {
       timer: 1500
     });
     this.guardar();
-    this.path.navigate(["/dbManagment/productos"]);
+    this.path.navigate(["/productos"]);
   }
   guardar():void{
     this.http.post("http://localhost:8080/api/productos/insertar", this.jsonProductos).
