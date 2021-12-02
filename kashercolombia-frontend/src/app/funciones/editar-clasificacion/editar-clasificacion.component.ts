@@ -40,7 +40,7 @@ export class EditarClasificacionComponent implements OnInit {
       timer: 1500
     });
     this.guardar();
-    this.path.navigate(["/dbManagment/clasificacion"]);
+    this.path.navigate(["/clasificacion"]);
   }
   guardar():void{
     this.http.post("http://localhost:8080/api/clasificacion/insertar", this.jsonClasificacion).

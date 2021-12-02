@@ -38,8 +38,6 @@ export class EstablecimientosComponent implements OnInit {
   }
 
   eliminar(id:any, element:any):void{    
-    this.http.delete("http://localhost:8080/api/establecimientos/remover/"+id).
-    subscribe((Retrieve:any)=>{});   
     Swal.fire({
       title: '¿Realmente deseas eliminar éste ítem?',
       showDenyButton: true,
@@ -47,14 +45,15 @@ export class EstablecimientosComponent implements OnInit {
       confirmButtonText: 'Sí',
       denyButtonText: `No`,
     }).then((Retrieve:any) => {
-      /* Read more about isConfirmed, isDenied below */
       if (Retrieve.isConfirmed) {
-        Swal.fire(element+' ha sido eliminado!', '', 'success')
+        this.http.delete("http://localhost:8080/api/establecimientos/remover/"+id).
+        subscribe((Retrieve:any)=>{});
+        Swal.fire(element+' ha sido eliminado!', '', 'success');
+        this.listar();
       } else if (Retrieve.isDenied) {
         Swal.fire('Nada ha cambiado, tranquilo.', '', 'info')
       }
-    });
-    this.listar();
+    });    
   }
 
   guardar():void{

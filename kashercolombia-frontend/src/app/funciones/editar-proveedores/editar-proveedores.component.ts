@@ -47,7 +47,7 @@ export class EditarProveedoresComponent implements OnInit {
       timer: 1500
     });
     this.guardar();
-    this.path.navigate(["/dbManagment/proveedores"]);
+    this.path.navigate(["/proveedores"]);
   }
   guardar():void{
     this.http.post("http://localhost:8080/api/proveedores/insertar", this.jsonProveedores).

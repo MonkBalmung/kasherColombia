@@ -14,11 +14,11 @@
             <tbody>
                 <tr *ngFor="let data of dbSellos">
                     <td>{{data.id_sello}}</td>
-                    <td>{{data.sello}}</td>
+                    <td> <strong>{{data.sello}}</strong> </td>
                     <td>{{data.abreviatura}}</td>
                     <td>
-                        <button (click)="formActualizar(data.id)" class="btn btn-warning">Editar</button> |
-                        <button (click)="eliminar(data.id, data.sello)" class="btn btn-danger">Eliminar</button>
+                        <button (click)="formActualizar(data.id)" class="btn btn-warning"><i class="fas fa-wrench"></i> Editar</button> |
+                        <button (click)="eliminar(data.id, data.sello)" class="btn btn-danger"><i class="far fa-trash-alt"></i> Eliminar</button>
                     </td>
                 </tr>
             </tbody>
@@ -37,12 +37,12 @@
                 <h6>Abreviatura:</h6>
                 <input required name="abreviatura" type="text" [(ngModel)]="jsonSellos.abreviatura" class="form-control">
                 <br>
-                <button type="submit" class="btn btn-success">Guardar</button>
+                <button type="submit" class="btn btn-success"><i class="fas fa-share-square"></i> Guardar</button>
             </div>        
         </form>
         <div>
             <form action="">
-                <h3 style="color: black;">Cargar información desde archivo</h3>
+                <p style="color: black;"><i class="fas fa-file-upload"></i> Cargar información desde archivo</p>
                 <input type="file">
             </form>
         </div>

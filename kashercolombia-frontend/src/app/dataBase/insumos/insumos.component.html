@@ -20,13 +20,13 @@
                     <td>{{data.id_insumo}}</td>
                     <td>{{data.clasificacion}}</td>
                     <td>{{data.categoria}}</td>
-                    <td>{{data.producto}}</td>
-                    <td>{{data.marca}}</td>
+                    <td> <strong>{{data.producto}}</strong> </td>
+                    <td> <strong>{{data.marca}}</strong> </td>
                     <td>{{data.proveedor}}</td>
-                    <td>{{data.presentacion}}</td>
+                    <td> <strong>{{data.presentacion}}</strong> </td>
                     <td>
-                        <button (click)="formActualizar(data.id)" class="btn btn-warning">Editar</button> |
-                        <button (click)="eliminar(data.id, data.producto)" class="btn btn-danger">Eliminar</button>
+                        <button (click)="formActualizar(data.id)" class="btn btn-warning"><i class="fas fa-wrench"></i> Editar</button> |
+                        <button (click)="eliminar(data.id, data.producto)" class="btn btn-danger"><i class="far fa-trash-alt"></i> Eliminar</button>
                     </td>
                 </tr>
             </tbody>
@@ -39,7 +39,7 @@
             </div>
             <div style="color:black; background-color: lightgray">
                 <h6>Código:</h6>
-                <input required name="codigo" type="text" [(ngModel)]="jsonInsumos.id_insumos" class="form-control">
+                <input required name="codigo" type="text" [(ngModel)]="jsonInsumos.id_insumo" class="form-control">
                 <h6>Clasificación:</h6>
                 <input required name="clasificacion" type="text" [(ngModel)]="jsonInsumos.clasificacion" class="form-control">
                 <h6>Categoría:</h6>
@@ -53,12 +53,12 @@
                 <h6>Presentación:</h6>
                 <input required name="presentacion" type="text" [(ngModel)]="jsonInsumos.presentacion" class="form-control">
                 <br>
-                <button type="submit" class="btn btn-success">Guardar</button>
+                <button type="submit" class="btn btn-success"><i class="fas fa-share-square"></i> Guardar</button>
             </div>         
         </form>
         <div>
             <form action="">
-                <h3 style="color: black;">Cargar información desde archivo</h3>
+                <p style="color: black;"><i class="fas fa-file-upload"></i> Cargar información desde archivo</p>
                 <input type="file">
             </form>
         </div>

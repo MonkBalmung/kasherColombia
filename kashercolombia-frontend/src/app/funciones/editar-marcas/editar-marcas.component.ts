@@ -40,7 +40,7 @@ export class EditarMarcasComponent implements OnInit {
       timer: 1500
     });
     this.guardar();
-    this.path.navigate(["/dbManagment/marcas"]);
+    this.path.navigate(["/marcas"]);
   }
   guardar():void{
     this.http.post("http://localhost:8080/api/marcas/insertar", this.jsonMarcas).

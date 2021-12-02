@@ -32,8 +32,7 @@ export class ClasificacionComponent implements OnInit {
     subscribe((Retrieve:any)=>{this.dbClasificacion=Retrieve});
   }
   eliminar(id:any, element:any):void{    
-    this.http.delete("http://localhost:8080/api/clasificacion/remover/"+id).
-    subscribe((Retrieve:any)=>{});
+    
     Swal.fire({
       title: '¿Realmente deseas eliminar éste ítem?',
       showDenyButton: true,
@@ -41,14 +40,15 @@ export class ClasificacionComponent implements OnInit {
       confirmButtonText: 'Sí',
       denyButtonText: `No`,
     }).then((Retrieve:any) => {
-      /* Read more about isConfirmed, isDenied below */
       if (Retrieve.isConfirmed) {
-        Swal.fire(element+' ha sido eliminado!', '', 'success')
+        this.http.delete("http://localhost:8080/api/clasificacion/remover/"+id).
+        subscribe((Retrieve:any)=>{});
+        Swal.fire(element+' ha sido eliminado!', '', 'success');
+        this.listar();
       } else if (Retrieve.isDenied) {
         Swal.fire('Nada ha cambiado, tranquilo.', '', 'info')
       }
-    });
-    this.listar();     
+    });         
   }
 
   guardar():void{
@@ -67,5 +67,4 @@ export class ClasificacionComponent implements OnInit {
   formActualizar(id:any):void{
     this.path.navigate(["/editar-clasificacion", id]);
   }
-
 }

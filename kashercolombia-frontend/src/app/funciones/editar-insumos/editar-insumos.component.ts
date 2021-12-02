@@ -49,7 +49,7 @@ actualizar(){
     timer: 1500
   });
   this.guardar();
-  this.path.navigate(["/dbManagment/insumos"]);
+  this.path.navigate(["/insumos"]);
 }
 guardar():void{
   this.http.post("http://localhost:8080/api/insumos/insertar", this.jsonInsumos).

@@ -1,19 +1,20 @@
 <div>
-    <h3><strong>Módulo de Gestión de <em>Base de Datos</em> de Kasher Colombia</strong></h3>
+    <h3 style="display: flex; justify-content: center;">
+        <strong>Módulo de Gestión de <em>Base de Datos</em> de Kasher Colombia</strong>
+    </h3>
+    <hr>
 </div>
     <section class="vh-100" id="show">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 text-black">  
                     <div class="px-5 ms-xl-4">
-                        <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i>
-                        <hr>
                         <div id="titulo">
                             <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Acceso a Módulo Administrador</h3>      
                         </div> 
                         <hr>
                     </div>  
-                    <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">  
+                    <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n15">  
                         <form style="width: 23rem;" (submit)="ingresar()" ngNativeValidate>
                             <div class="form-outline mb-4">
                                 <input required name="username"[(ngModel)]="admin.username" type="text" id="username" class="form-control form-control-lg" />

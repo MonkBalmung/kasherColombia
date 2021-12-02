@@ -41,7 +41,7 @@ export class EditarSellosComponent implements OnInit {
       timer: 1500
     });
     this.guardar();
-    this.path.navigate(["/dbManagment/sellos"]);
+    this.path.navigate(["/sellos"]);
   }
   guardar():void{
     this.http.post("http://localhost:8080/api/sellos/insertar", this.jsonSellos).
