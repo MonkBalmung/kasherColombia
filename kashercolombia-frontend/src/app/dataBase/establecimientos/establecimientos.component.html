@@ -1,6 +1,6 @@
 <br>
-<div class="container" style="display: inline-flex;">
-    <section style="border: solid black 1px;">
+<div class="container" style="display: inline-flex; justify-content: center; margin: 5%; width: 100%;">
+    <section style="border: solid black 1px; font-size: 12px;">
         <h3>Lista de Establecimientos</h3>
         <table class="table table-striped table-bordered table-hover display" id="table">
             <thead>
@@ -31,10 +31,10 @@
             </tbody>
         </table>
     </section>
-    <aside style="float: right; color: white;">
+    <aside style="float: right; color: white; margin-left: 2%; border: 1px black solid; height: 50%;"> 
         <form (submit)="guardar()" ngNativeValidate>        
-            <div style="background-color: gray">
-                <h3>Agregar Ítem</h3>
+            <div style="background-color: rgb(116, 116, 230);">
+                <h3 style="color: black;">Agregar Ítem</h3>
             </div>
             <div style="color:black; background-color: lightgray">
                 <h6>Código:</h6>

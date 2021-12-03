@@ -1,11 +1,14 @@
-<div style="background-color: gray">
-    <h3>Editar Categoría</h3>
+<div style="justify-content: center; width: 50%">
+    <div style="background-color: rgb(153, 138, 138);">
+        <h3>Editar Categoría</h3>
+    </div>
+    <div style="color:black; background-color: lightgray">
+        <h6>Código:</h6>
+        <input type="text" [(ngModel)]="jsonCategorias.id_categoria" class="form-control">
+        <h6>Categoría:</h6>
+        <input type="text" [(ngModel)]="jsonCategorias.categoria" class="form-control">            
+        <br>
+        <button (click)="actualizar()" class="btn btn-warning"><i class="fas fa-wrench"></i> Editar</button>
+    </div>
 </div>
-<div style="color:black; background-color: lightgray">
-    <h6>Código:</h6>
-    <input type="text" [(ngModel)]="jsonCategorias.id_categoria" class="form-control">
-    <h6>Categoría:</h6>
-    <input type="text" [(ngModel)]="jsonCategorias.categoria" class="form-control">            
-    <br>
-    <button (click)="actualizar()" class="btn btn-warning"><i class="fas fa-wrench"></i> Editar</button>
-</div> 
+ 

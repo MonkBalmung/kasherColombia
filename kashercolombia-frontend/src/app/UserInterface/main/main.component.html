@@ -8,19 +8,6 @@
 </div>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#"> <strong>Kashrut</strong> </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"> <strong>Instituciones</strong> </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"> <strong>Sellos</strong> </a>
-            </li>
-        </ul>
-    </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -31,12 +18,13 @@
         </ul>
     </div>
 </nav>    
-<div >
+<div style="border: 1px blue dotted;" >
+    <h3 style="display: flex; justify-content: center; margin-top: 3%;">
+        Bienvenido a <em>Kasher Colombia</em></h3> 
     <h3 style="display: flex; justify-content: center;">
-        Bienvenido a Kasher Colombia, donde podrás indagar si un producto es o no es kasher.        
-    </h3>
+        aquí sabrás si un producto es o no es kasher</h3>
 </div>
-<section id="section" style="margin-top:3%; justify-content: center">
+<section id="section" style="margin-top:5%; justify-content: center">
         <div id="productos" class="col-sm-3" style="margin-right: 5%;">
             <h4>¿Qué producto buscas?</h4>
             <h5>Te diré si es kosher:</h5>
@@ -45,7 +33,7 @@
                 <div>
                     <button (click)="listarProductos()" class="btn btn-primary">Buscar</button>
                 </div>
-                <table class="table table-striped table-bordered table-hover display" id="table">
+                <table class="table table-striped table-bordered table-hover display:none" id="table">
                     <thead>
                         <tr>                    
                             <th>Clase</th>
