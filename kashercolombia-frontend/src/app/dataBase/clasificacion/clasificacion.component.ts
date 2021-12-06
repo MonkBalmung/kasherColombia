@@ -28,7 +28,7 @@ export class ClasificacionComponent implements OnInit {
   }
 
   listar():void{
-    this.http.get("http://localhost:8080/api/clasificacion/mostrar", {responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/clasificacion/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbClasificacion=Retrieve});
   }
   eliminar(id:any, element:any):void{    
@@ -41,7 +41,7 @@ export class ClasificacionComponent implements OnInit {
       denyButtonText: `No`,
     }).then((Retrieve:any) => {
       if (Retrieve.isConfirmed) {
-        this.http.delete("http://localhost:8080/api/clasificacion/remover/"+id).
+        this.http.delete("http://kashercolbackend.jelastic.saveincloud.net/api/clasificacion/remover/"+id).
         subscribe((Retrieve:any)=>{});
         Swal.fire(element+' ha sido eliminado!', '', 'success');
         this.listar();
@@ -52,7 +52,7 @@ export class ClasificacionComponent implements OnInit {
   }
 
   guardar():void{
-    this.http.post("http://localhost:8080/api/clasificacion/insertar", this.jsonClasificacion).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/clasificacion/insertar", this.jsonClasificacion).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',

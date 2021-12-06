@@ -33,7 +33,7 @@ export class ProveedoresComponent implements OnInit {
   }
 
   listar():void{
-    this.http.get("http://localhost:8080/api/proveedores/mostrar", {responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/proveedores/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbProveedores=Retrieve});
   }
 
@@ -46,7 +46,7 @@ export class ProveedoresComponent implements OnInit {
       denyButtonText: `No`,
     }).then((Retrieve:any) => {
       if (Retrieve.isConfirmed) {
-        this.http.delete("http://localhost:8080/api/proveedores/remover/"+id).
+        this.http.delete("http://kashercolbackend.jelastic.saveincloud.net/api/proveedores/remover/"+id).
         subscribe((Retrieve:any)=>{});
         Swal.fire(element+' ha sido eliminado!', '', 'success');
         this.listar();
@@ -57,7 +57,7 @@ export class ProveedoresComponent implements OnInit {
   }
 
   guardar():void{
-    this.http.post("http://localhost:8080/api/proveedores/insertar", this.jsonProveedores).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/proveedores/insertar", this.jsonProveedores).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',

@@ -25,7 +25,7 @@ export class EditarProveedoresComponent implements OnInit {
   ngOnInit(): void {
     this.jsonProveedores.id=this.dbValue.snapshot.params["id"];
 
-    this.http.get("http://localhost:8080/api/proveedores/mostrar/"+this.jsonProveedores.id,{responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/proveedores/mostrar/"+this.jsonProveedores.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonProveedores.id_proveedor=Retrieve.id_proveedor;
       this.jsonProveedores.nombre=Retrieve.nombre;
@@ -37,7 +37,7 @@ export class EditarProveedoresComponent implements OnInit {
   }
 
   actualizar(){
-    this.http.put("http://localhost:8080/api/proveedores/actualizar/"+this.jsonProveedores.id, this.jsonProveedores).
+    this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/proveedores/actualizar/"+this.jsonProveedores.id, this.jsonProveedores).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',
@@ -50,7 +50,7 @@ export class EditarProveedoresComponent implements OnInit {
     this.path.navigate(["/proveedores"]);
   }
   guardar():void{
-    this.http.post("http://localhost:8080/api/proveedores/insertar", this.jsonProveedores).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/proveedores/insertar", this.jsonProveedores).
     subscribe((Retrieve:any)=>{});        
   }
 

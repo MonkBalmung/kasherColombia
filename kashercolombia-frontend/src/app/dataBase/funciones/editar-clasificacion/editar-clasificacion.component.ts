@@ -22,7 +22,7 @@ export class EditarClasificacionComponent implements OnInit {
   ngOnInit(): void {
     this.jsonClasificacion.id=this.dbValue.snapshot.params["id"];
 
-    this.http.get("http://localhost:8080/api/clasificacion/mostrar/"+this.jsonClasificacion.id,{responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/clasificacion/mostrar/"+this.jsonClasificacion.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonClasificacion.id_clasificacion=Retrieve.id_clasificacion;
       this.jsonClasificacion.clasificacion=Retrieve.clasificacion;
@@ -30,7 +30,7 @@ export class EditarClasificacionComponent implements OnInit {
   }
 
   actualizar(){
-    this.http.put("http://localhost:8080/api/clasificacion/actualizar/"+this.jsonClasificacion.id, this.jsonClasificacion).
+    this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/clasificacion/actualizar/"+this.jsonClasificacion.id, this.jsonClasificacion).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',
@@ -43,7 +43,7 @@ export class EditarClasificacionComponent implements OnInit {
     this.path.navigate(["/clasificacion"]);
   }
   guardar():void{
-    this.http.post("http://localhost:8080/api/clasificacion/insertar", this.jsonClasificacion).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/clasificacion/insertar", this.jsonClasificacion).
     subscribe((Retrieve:any)=>{});        
   }
 

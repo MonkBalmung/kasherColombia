@@ -30,7 +30,7 @@ export class CategoriasComponent implements OnInit {
   }
 
   listar():void{
-    this.http.get("http://localhost:8080/api/categorias/mostrar", {responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/categorias/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbCategoria=Retrieve});
   }
 
@@ -43,7 +43,7 @@ export class CategoriasComponent implements OnInit {
       denyButtonText: `No`,
     }).then((Retrieve:any) => {
       if (Retrieve.isConfirmed) {
-        this.http.delete("http://localhost:8080/api/categorias/remover/"+id).
+        this.http.delete("http://kashercolbackend.jelastic.saveincloud.net/api/categorias/remover/"+id).
         subscribe((Retrieve:any)=>{});
         Swal.fire(element+' ha sido eliminado!', '', 'success');
         this.listar();
@@ -54,7 +54,7 @@ export class CategoriasComponent implements OnInit {
   }
 
   guardar():void{
-    this.http.post("http://localhost:8080/api/categorias/insertar", this.jsonCategorias).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/categorias/insertar", this.jsonCategorias).
     subscribe((Retrieve:any)=>{});   
     Swal.fire({
       position: 'center',

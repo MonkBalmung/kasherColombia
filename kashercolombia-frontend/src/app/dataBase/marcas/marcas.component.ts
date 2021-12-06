@@ -29,7 +29,7 @@ export class MarcasComponent implements OnInit {
   }
 
   listar():void{
-    this.http.get("http://localhost:8080/api/marcas/mostrar", {responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/marcas/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbMarcas=Retrieve});
   }
 
@@ -43,7 +43,7 @@ export class MarcasComponent implements OnInit {
     }).then((Retrieve:any) => {
       /* Read more about isConfirmed, isDenied below */
       if (Retrieve.isConfirmed) {
-        this.http.delete("http://localhost:8080/api/marcas/remover/"+id).
+        this.http.delete("http://kashercolbackend.jelastic.saveincloud.net/api/marcas/remover/"+id).
         subscribe((Retrieve:any)=>{});
         Swal.fire(element+' ha sido eliminado!', '', 'success');
         this.listar();
@@ -54,7 +54,7 @@ export class MarcasComponent implements OnInit {
   }
 
   guardar():void{
-    this.http.post("http://localhost:8080/api/marcas/insertar", this.jsonMarcas).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/marcas/insertar", this.jsonMarcas).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',

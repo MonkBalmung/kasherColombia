@@ -29,7 +29,7 @@ export class SellosComponent implements OnInit {
   }
 
   listar():void{
-    this.http.get("http://localhost:8080/api/sellos/mostrar", {responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/sellos/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbSellos=Retrieve});
   }
 
@@ -43,7 +43,7 @@ export class SellosComponent implements OnInit {
     }).then((Retrieve:any) => {
       /* Read more about isConfirmed, isDenied below */
       if (Retrieve.isConfirmed) {
-        this.http.delete("http://localhost:8080/api/sellos/remover/"+id).
+        this.http.delete("http://kashercolbackend.jelastic.saveincloud.net/api/sellos/remover/"+id).
         subscribe((Retrieve:any)=>{});
         Swal.fire(element+' ha sido eliminado!', '', 'success');
         this.listar();
@@ -54,7 +54,7 @@ export class SellosComponent implements OnInit {
   }
 
   guardar():void{
-    this.http.post("http://localhost:8080/api/sellos/insertar", this.jsonSellos).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/sellos/insertar", this.jsonSellos).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',

@@ -25,7 +25,7 @@ constructor(private path:Router, private dbValue:ActivatedRoute, private http: H
 ngOnInit(): void {
   this.jsonEstablecimientos.id=this.dbValue.snapshot.params["id"];
 
-  this.http.get("http://localhost:8080/api/establecimientos/mostrar/"+this.jsonEstablecimientos.id,{responseType:"json"}).
+  this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/establecimientos/mostrar/"+this.jsonEstablecimientos.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonEstablecimientos.id_establecimiento=Retrieve.id_establecimiento;
       this.jsonEstablecimientos.actividad=Retrieve.actividad;
@@ -37,7 +37,7 @@ ngOnInit(): void {
 }
 
 actualizar(){
-  this.http.put("http://localhost:8080/api/establecimientos/actualizar/"+this.jsonEstablecimientos.id, this.jsonEstablecimientos).
+  this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/establecimientos/actualizar/"+this.jsonEstablecimientos.id, this.jsonEstablecimientos).
   subscribe((Retrieve:any)=>{});
   Swal.fire({
     position: 'center',
@@ -50,7 +50,7 @@ actualizar(){
   this.path.navigate(["/establecimientos"]);
 }
 guardar():void{
-  this.http.post("http://localhost:8080/api/establecimientos/insertar", this.jsonEstablecimientos).
+  this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/establecimientos/insertar", this.jsonEstablecimientos).
   subscribe((Retrieve:any)=>{});        
 }
 }

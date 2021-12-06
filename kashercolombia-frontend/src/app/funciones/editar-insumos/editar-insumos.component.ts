@@ -26,7 +26,7 @@ constructor(private path:Router, private dbValue:ActivatedRoute, private http: H
 ngOnInit(): void {
   this.jsonInsumos.id=this.dbValue.snapshot.params["id"];
 
-  this.http.get("http://localhost:8080/api/insumos/mostrar/"+this.jsonInsumos.id,{responseType:"json"}).
+  this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/insumos/mostrar/"+this.jsonInsumos.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonInsumos.id_insumo=Retrieve.id_insumo;
       this.jsonInsumos.clasificacion=Retrieve.clasificacion;
@@ -39,7 +39,7 @@ ngOnInit(): void {
 }
 
 actualizar(){
-  this.http.put("http://localhost:8080/api/insumos/actualizar/"+this.jsonInsumos.id, this.jsonInsumos).
+  this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/insumos/actualizar/"+this.jsonInsumos.id, this.jsonInsumos).
   subscribe((Retrieve:any)=>{});
   Swal.fire({
     position: 'center',
@@ -52,7 +52,7 @@ actualizar(){
   this.path.navigate(["/insumos"]);
 }
 guardar():void{
-  this.http.post("http://localhost:8080/api/insumos/insertar", this.jsonInsumos).
+  this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/insumos/insertar", this.jsonInsumos).
   subscribe((Retrieve:any)=>{});        
 }
 

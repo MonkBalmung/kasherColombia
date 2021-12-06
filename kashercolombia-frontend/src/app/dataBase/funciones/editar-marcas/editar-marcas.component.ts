@@ -21,7 +21,7 @@ export class EditarMarcasComponent implements OnInit {
   ngOnInit(): void {
     this.jsonMarcas.id=this.dbValue.snapshot.params["id"];
   
-    this.http.get("http://localhost:8080/api/marcas/mostrar/"+this.jsonMarcas.id,{responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/marcas/mostrar/"+this.jsonMarcas.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonMarcas.id_marca=Retrieve.id_marca;
       this.jsonMarcas.marca=Retrieve.marca;
@@ -30,7 +30,7 @@ export class EditarMarcasComponent implements OnInit {
   }
 
   actualizar(){
-    this.http.put("http://localhost:8080/api/marcas/actualizar/"+this.jsonMarcas.id, this.jsonMarcas).
+    this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/marcas/actualizar/"+this.jsonMarcas.id, this.jsonMarcas).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',
@@ -43,7 +43,7 @@ export class EditarMarcasComponent implements OnInit {
     this.path.navigate(["/marcas"]);
   }
   guardar():void{
-    this.http.post("http://localhost:8080/api/marcas/insertar", this.jsonMarcas).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/marcas/insertar", this.jsonMarcas).
     subscribe((Retrieve:any)=>{});        
   }
 

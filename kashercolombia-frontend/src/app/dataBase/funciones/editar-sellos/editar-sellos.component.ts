@@ -22,7 +22,7 @@ export class EditarSellosComponent implements OnInit {
   ngOnInit(): void {
     this.jsonSellos.id=this.dbValue.snapshot.params["id"];
 
-    this.http.get("http://localhost:8080/api/sellos/mostrar/"+this.jsonSellos.id,{responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/sellos/mostrar/"+this.jsonSellos.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonSellos.id_sello=Retrieve.id_sello;
       this.jsonSellos.sello=Retrieve.sello;
@@ -31,7 +31,7 @@ export class EditarSellosComponent implements OnInit {
   }
 
   actualizar(){
-    this.http.put("http://localhost:8080/api/sellos/actualizar/"+this.jsonSellos.id, this.jsonSellos).
+    this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/sellos/actualizar/"+this.jsonSellos.id, this.jsonSellos).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',
@@ -44,7 +44,7 @@ export class EditarSellosComponent implements OnInit {
     this.path.navigate(["/sellos"]);
   }
   guardar():void{
-    this.http.post("http://localhost:8080/api/sellos/insertar", this.jsonSellos).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/sellos/insertar", this.jsonSellos).
     subscribe((Retrieve:any)=>{});        
   }
 

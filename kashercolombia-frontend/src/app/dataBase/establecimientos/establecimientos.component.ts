@@ -33,7 +33,7 @@ export class EstablecimientosComponent implements OnInit {
   }
 
   listar():void{
-    this.http.get("http://localhost:8080/api/establecimientos/mostrar", {responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/establecimientos/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbEstablecimientos=Retrieve});
   }
 
@@ -46,7 +46,7 @@ export class EstablecimientosComponent implements OnInit {
       denyButtonText: `No`,
     }).then((Retrieve:any) => {
       if (Retrieve.isConfirmed) {
-        this.http.delete("http://localhost:8080/api/establecimientos/remover/"+id).
+        this.http.delete("http://kashercolbackend.jelastic.saveincloud.net/api/establecimientos/remover/"+id).
         subscribe((Retrieve:any)=>{});
         Swal.fire(element+' ha sido eliminado!', '', 'success');
         this.listar();
@@ -57,7 +57,7 @@ export class EstablecimientosComponent implements OnInit {
   }
 
   guardar():void{
-    this.http.post("http://localhost:8080/api/establecimientos/insertar", this.jsonEstablecimientos).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/establecimientos/insertar", this.jsonEstablecimientos).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',

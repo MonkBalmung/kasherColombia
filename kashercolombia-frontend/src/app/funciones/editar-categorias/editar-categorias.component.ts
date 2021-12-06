@@ -23,7 +23,7 @@ export class EditarCategoriasComponent implements OnInit {
   ngOnInit(): void {
     this.jsonCategorias.id=this.dbValue.snapshot.params["id"];
 
-    this.http.get("http://localhost:8080/api/categorias/mostrar/"+this.jsonCategorias.id,{responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/categorias/mostrar/"+this.jsonCategorias.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonCategorias.id_categoria=Retrieve.id_categoria;
       this.jsonCategorias.categoria=Retrieve.categoria;
@@ -31,7 +31,7 @@ export class EditarCategoriasComponent implements OnInit {
   }
 
   actualizar(){
-    this.http.put("http://localhost:8080/api/categorias/actualizar/"+this.jsonCategorias.id, this.jsonCategorias).
+    this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/categorias/actualizar/"+this.jsonCategorias.id, this.jsonCategorias).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',
@@ -44,7 +44,7 @@ export class EditarCategoriasComponent implements OnInit {
     this.path.navigate(["/categorias"]);
   }
   guardar():void{
-    this.http.post("http://localhost:8080/api/categorias/insertar", this.jsonCategorias).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/categorias/insertar", this.jsonCategorias).
     subscribe((Retrieve:any)=>{});        
   }
 }

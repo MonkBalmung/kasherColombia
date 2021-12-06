@@ -26,7 +26,7 @@ export class EditarProductosComponent implements OnInit {
   ngOnInit(): void {
     this.jsonProductos.id=this.dbValue.snapshot.params["id"];
 
-    this.http.get("http://localhost:8080/api/productos/mostrar/"+this.jsonProductos.id,{responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/productos/mostrar/"+this.jsonProductos.id,{responseType:"json"}).
     subscribe((Retrieve:any)=>{      
       this.jsonProductos.id_producto=Retrieve.id_producto;
       this.jsonProductos.clasificacion=Retrieve.clasificacion;
@@ -39,7 +39,7 @@ export class EditarProductosComponent implements OnInit {
   }
 
   actualizar(){
-    this.http.put("http://localhost:8080/api/productos/actualizar/"+this.jsonProductos.id, this.jsonProductos).
+    this.http.put("http://kashercolbackend.jelastic.saveincloud.net/api/productos/actualizar/"+this.jsonProductos.id, this.jsonProductos).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',
@@ -52,7 +52,7 @@ export class EditarProductosComponent implements OnInit {
     this.path.navigate(["/productos"]);
   }
   guardar():void{
-    this.http.post("http://localhost:8080/api/productos/insertar", this.jsonProductos).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/productos/insertar", this.jsonProductos).
     subscribe((Retrieve:any)=>{});        
   }
 

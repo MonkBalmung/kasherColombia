@@ -34,7 +34,7 @@ export class ProductosComponent implements OnInit {
   }
 
   listar():void{
-    this.http.get("http://localhost:8080/api/productos/mostrar", {responseType:"json"}).
+    this.http.get("http://kashercolbackend.jelastic.saveincloud.net/api/productos/mostrar", {responseType:"json"}).
     subscribe((Retrieve:any)=>{this.dbProductos=Retrieve});
   }
 
@@ -48,7 +48,7 @@ export class ProductosComponent implements OnInit {
     }).then((Retrieve:any) => {
       /* Read more about isConfirmed, isDenied below */
       if (Retrieve.isConfirmed) {
-        this.http.delete("http://localhost:8080/api/productos/remover/"+id).
+        this.http.delete("http://kashercolbackend.jelastic.saveincloud.net/api/productos/remover/"+id).
         subscribe((Retrieve:any)=>{});
         Swal.fire(element+' ha sido eliminado!', '', 'success');
         this.listar();
@@ -59,7 +59,7 @@ export class ProductosComponent implements OnInit {
   }
 
   guardar():void{
-    this.http.post("http://localhost:8080/api/productos/insertar", this.jsonProductos).
+    this.http.post("http://kashercolbackend.jelastic.saveincloud.net/api/productos/insertar", this.jsonProductos).
     subscribe((Retrieve:any)=>{});
     Swal.fire({
       position: 'center',
